@@ -1,0 +1,34 @@
+  @if (emprendedor) {
+    <mat-toolbar>
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span>{{emprendedor.nombre}}</span>
+    <span class="example-spacer"></span>
+    <section>
+      <div class="example-button-row">
+        <button mat-button>Presentacion Empresa</button>
+        <button mat-button>{{emprendedor.QueOfrezco}}</button>
+        <button mat-button>Presentacion Personal</button>
+        <a mat-button [href]="emprendedor.whatsapp" target="_blank">Mira mi whatsapp</a>
+      </div>
+      </section>
+    </mat-toolbar>
+}
+@else {  <mat-toolbar>
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span>PlaceHolder</span>
+  <span class="example-spacer"></span>
+  <section>
+      <div class="example-button-row">
+        <button mat-button>Presentacion Empresa</button>
+        <button mat-button>PlaceHolder</button>
+        <button mat-button>Presentacion Personal</button>
+        <a mat-button [href]="" target="_blank">Mira mi whatsapp</a>
+      </div>
+    </section>
+</mat-toolbar>
+}
+  

@@ -1,0 +1,134 @@
+[
+  {
+    "nombre": "Juan Pérez",
+    "imagen": "https://material.angular.io/assets/img/examples/shiba1.jpg",
+    "cedula": 1,
+    "nit": 987654321,
+    "descripcion": "Consultor de marketing digital especializado en pequeñas empresas.",
+    "calendario": "https://calendar.google.com/calendar/appointments/schedules/AcZssZ0Q91WO2kgUgn76d07xI0kki3Fudc8300zgjWq-4jor_tWScCKT2Int8_8jpXqTX9eh_mhrMLSi?gv=true",
+    "whatsapp": "https://wa.me/573178661369",
+    "QueOfrezco": "productos",
+    "MisProductos": [
+      {
+        "id" : 1,
+        "nombreProducto": "Estrategia de Marketing",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "500 USD",
+        "descripcionProducto": "Desarrollo de estrategias de marketing digital personalizadas."
+      },
+      {
+        "id" : 2,
+        "nombreProducto": "Gestión de Redes Sociales",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "300 USD",
+        "descripcionProducto": "Manejo y optimización de redes sociales para empresas."
+      },
+      {
+        "id" : 3,
+        "nombreProducto": "Consultoría SEO",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "400 USD",
+        "descripcionProducto": "Mejora del posicionamiento en buscadores."
+      }
+    ]
+  },
+  {
+    "nombre": "María Rodríguez",
+    "imagen": "https://www.coindesk.com/resizer/cby-7AmuhU_coYGCIk94K8MclIg=/1056x595/filters:quality(80)/format(jpg)/cloudfront-us-east-1.images.arcpublishing.com/coindesk/WMXJCFJ3ERCETA6TJNZ5NQPNKA.webp",
+    "cedula": 2,
+    "nit": 123456789,
+    "descripcion": "Psicóloga en crecimiento enfocada en el bienestar emocional.",
+    "calendario": "https://calendar.google.com/calendar/appointments/schedules/AcZssZ0Q91WO2kgUgn76d07xI0kki3Fudc8300zgjWq-4jor_tWScCKT2Int8_8jpXqTX9eh_mhrMLSi?gv=true",
+    "whatsapp": "https://wa.me/573178661369",
+    "QueOfrezco": "servicios",
+    "MisProductos": [
+      {
+        "id" : 1,
+        "nombreProducto": "Sesión de Terapia Individual",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "50 USD",
+        "descripcionProducto": "Sesiones de terapia individual para el bienestar emocional."
+      },
+      {
+        "id" : 2,
+        "nombreProducto": "Terapia de Pareja",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "80 USD",
+        "descripcionProducto": "Sesiones de terapia para parejas."
+      },
+      {
+        "id" : 3,
+        "nombreProducto": "Taller de Mindfulness",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "30 USD",
+        "descripcionProducto": "Talleres de mindfulness para reducir el estrés."
+      }
+    ]
+  },
+  {
+    "nombre": "Carlos García",
+    "imagen": "https://media.istockphoto.com/id/1297445091/es/foto/shiba-inu-perro-de-raza-japon%C3%A9s.jpg?s=612x612&w=0&k=20&c=xnpxH__7TbPe4QWJtJ-CbRt7ogkDecwxOW1kb9QE000=",
+    "cedula": 3,
+    "nit": 556677889,
+    "descripcion": "Desarrollador de software freelance con enfoque en aplicaciones web.",
+    "calendario": "https://calendar.google.com/calendar/appointments/schedules/AcZssZ0Q91WO2kgUgn76d07xI0kki3Fudc8300zgjWq-4jor_tWScCKT2Int8_8jpXqTX9eh_mhrMLSi?gv=true",
+    "whatsapp": "https://wa.me/573178661369",
+    "QueOfrezco": "productos",
+    "MisProductos": [
+      {
+        "id" : 1,
+        "nombreProducto": "Desarrollo de Aplicaciones Web",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "1000 USD",
+        "descripcionProducto": "Desarrollo de aplicaciones web personalizadas."
+      },
+      {
+        "id" : 2,
+        "nombreProducto": "Mantenimiento de Software",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "200 USD",
+        "descripcionProducto": "Servicios de mantenimiento y actualización de software."
+      },
+      {
+        "id" : 3,
+        "nombreProducto": "Consultoría Técnica",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "150 USD",
+        "descripcionProducto": "Consultoría técnica para proyectos de desarrollo."
+      }
+    ]
+  },
+  {
+    "nombre": "Laura Martínez",
+    "imagen": "https://www.elmueble.com/medio/2023/02/26/perro-de-raza-shiba-inu_b6387407_230226130353_900x900.jpg",
+    "cedula": 4,
+    "nit": 998877665,
+    "descripcion": "Técnica en uñas y belleza con un enfoque en la estética minimalista.",
+    "calendario": "https://calendar.google.com/calendar/appointments/schedules/AcZssZ0Q91WO2kgUgn76d07xI0kki3Fudc8300zgjWq-4jor_tWScCKT2Int8_8jpXqTX9eh_mhrMLSi?gv=true",
+    "whatsapp": "https://wa.me/573178661369",
+    "QueOfrezco": "servicios",
+    "MisProductos": [
+      {
+        "id" : 1,
+        "nombreProducto": "Manicura",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "20 USD",
+        "descripcionProducto": "Servicio de manicura con enfoque en la estética minimalista."
+      },
+      {
+        "id" : 2,
+        "nombreProducto": "Pedicura",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "25 USD",
+        "descripcionProducto": "Servicio de pedicura con productos de alta calidad."
+      },
+      {
+        "id" : 3,
+        "nombreProducto": "Tratamiento de Uñas",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "30 USD",
+        "descripcionProducto": "Tratamientos especializados para el cuidado de las uñas."
+      }
+    ]
+  }
+]

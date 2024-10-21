@@ -1,0 +1,13 @@
+.app-footer {
+    background-color: #1976d2; // Color primario de Angular
+    color: white;
+
+    mat-toolbar {
+        justify-content: space-between; // Espaciado entre los elementos
+        padding: 16px;
+
+        .spacer {
+            flex: 1 1 auto; // Para empujar los enlaces a la derecha
+        }
+    }
+}

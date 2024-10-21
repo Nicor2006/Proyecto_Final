@@ -1,0 +1,61 @@
+.cards {
+    display: flex;
+    justify-content: center; /* Centra las tarjetas horizontalmente */
+    flex-wrap: wrap; /* Permite que las tarjetas se envuelvan en varias líneas */
+    width: 100%;
+}
+  
+.card {
+    position: relative;
+    width: 100%;
+    max-width: 390px;
+    min-height: 520px;
+    background-color: var(--light-three); /* Usando la variable definida */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 3rem 2rem;
+    margin: 1rem 0.8rem;
+    overflow: hidden;
+    border: solid 1px var(--dark-two); /* Usando la variable definida */
+    border-radius: 5%;
+}
+  
+.card:before {
+    content: attr(data-card);
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    font-size: 6rem;
+    font-weight: 800;
+    line-height: 1;
+    color: var(--main-color); /* Usando la variable definida */
+    opacity: 0.025;
+}
+  
+.card:hover {
+    transform: translateY(-15px);
+    transition: 0.3s;
+}
+  
+.img {
+    width: 300px;
+    height: 300px;
+}
+  
+.card .title-sm {
+    line-height: 0.8;
+}
+  
+.card .text {
+    font-size: 1.15rem;
+    margin: 1.8rem 0;
+}
+
+/* Estilos para centrar el enlace */
+.calendar-button-container {
+    display: flex;
+    justify-content: center; /* Centra el enlace horizontalmente */
+    margin-top: 20px; /* Añadir un margen superior si es necesario */
+}

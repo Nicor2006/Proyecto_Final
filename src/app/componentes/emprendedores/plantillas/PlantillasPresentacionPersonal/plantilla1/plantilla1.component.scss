@@ -1,0 +1,42 @@
+.emprendedor-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+
+    .emprendedor-imagen {
+        max-width: 100%;
+        height: auto;
+        border-radius: 4px;
+    }
+
+    .emprendedor-nit {
+        font-size: 1.5rem;
+        color: #333;
+        margin: 8px 0;
+    }
+
+    .emprendedor-descripcion {
+        font-size: 1rem;
+        color: #666;
+        margin: 8px 0;
+        line-height: 1.5;
+    }
+
+    .emprendedor-whatsapp {
+        display: inline-block;
+        margin-top: 12px;
+        padding: 8px 16px;
+        color: #fff;
+        background-color: #25D366; // Color de WhatsApp
+        border-radius: 4px;
+        text-decoration: none;
+
+        &:hover {
+            background-color: #128C7E; // Color más oscuro en hover
+        }
+    }
+}
