@@ -5,11 +5,12 @@ import { HttpClientModule } from '@angular/common/http';
 import { EmprendedorService } from '../../../../../servicios/emprendedores/emprendedor.service';
 import { MatButtonModule } from '@angular/material/button';
 import { Emprendedor } from '../../../../../interfaces/emprendedor';
+import {MatCardModule} from '@angular/material/card';
 
 @Component({
   selector: 'app-plantilla-servicios1',
   standalone: true,
-  imports: [HttpClientModule, MatButtonModule],
+  imports: [HttpClientModule, MatButtonModule, MatCardModule],
   templateUrl: './plantilla-servicios1.component.html',
   styleUrl: './plantilla-servicios1.component.scss'
 })
@@ -58,7 +59,7 @@ export class PlantillaServicios1Component implements OnInit, AfterViewInit{
         // Carga el botón en el nuevo contenedor
         (window as any).calendar.schedulingButton.load({
           url: this.emprendedor?.calendario, // Asegúrate de que esto no sea undefined
-          color: '#039BE5',
+          color: '#0097A7',
           label: 'Programar una cita',
           target: linkContainer, // Usa el nuevo contenedor como objetivo
         });

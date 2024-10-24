@@ -1,3 +1,38 @@
-.example-spacer {
-    flex: 1 1 auto;
+/* NavBar Styles */
+mat-toolbar {
+  display: flex;
+  justify-content: flex-start; /* Cambiar a flex-start para alinear al inicio */
+  align-items: center; /* Asegura que los elementos estén centrados verticalmente */
+  flex-wrap: wrap;
+  margin-bottom: 20px; /* Espacio debajo de la NavBar */
+}
+
+/* Estilos para los botones en la barra de navegación */
+.example-button-row {
+  display: flex;
+  gap: 8px;
+  margin-left: auto; /* Empuja los botones hacia la derecha */
+}
+/* Estilos para el texto de la empresa */
+mat-toolbar span {
+  margin-left: 8px; /* Espacio entre el ícono y el texto */
+  color: #00DDDB; /* Color del texto */
+}
+
+/* Responsividad para pantallas pequeñas */
+@media (max-width: 768px) {
+  .example-button-row {
+    flex-direction: column; /* Alinea los botones en columna */
+    align-items: center;
+    gap: 12px; /* Espacio entre los botones en pantallas pequeñas */
   }
+
+  mat-toolbar {
+    flex-direction: column; /* Asegúrate de que esto esté aquí para pantallas pequeñas */
+    margin-bottom: 30px; /* Espacio adicional debajo de la NavBar en pantallas pequeñas */
+  }
+
+  mat-toolbar span {
+    margin-left: 0; /* Eliminar margen izquierdo en pantallas pequeñas */
+  }
+}

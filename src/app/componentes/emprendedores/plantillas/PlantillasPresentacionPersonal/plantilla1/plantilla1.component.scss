@@ -1,42 +1,240 @@
-.emprendedor-card {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 16px;
-    margin: 16px 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
-    text-align: center;
+/* Variables */
 
-    .emprendedor-imagen {
-        max-width: 100%;
-        height: auto;
-        border-radius: 4px;
-    }
-
-    .emprendedor-nit {
-        font-size: 1.5rem;
-        color: #333;
-        margin: 8px 0;
-    }
-
-    .emprendedor-descripcion {
-        font-size: 1rem;
-        color: #666;
-        margin: 8px 0;
-        line-height: 1.5;
-    }
-
-    .emprendedor-whatsapp {
-        display: inline-block;
-        margin-top: 12px;
-        padding: 8px 16px;
-        color: #fff;
-        background-color: #25D366; // Color de WhatsApp
-        border-radius: 4px;
-        text-decoration: none;
-
-        &:hover {
-            background-color: #128C7E; // Color más oscuro en hover
-        }
-    }
+:root {
+    --dark-one: #E91E63; // Rosa (color primario)
+    --dark-two: #607D8B; // Azul grisáceo (color de acento)
+    --main-color: #FF4081; // Rosa claro (color secundario)
+    --secondary-color: #F5F5F5; // Color de fondo
+    --light-one: #FFFFFF; // Color blanco
+    --light-two: lighten(#607D8B, 10%); // Color de acento claro
+    --light-three: #F6F7FB; // Color adicional
 }
+
+/* Estilos generales */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  .container {
+    position: relative;
+    z-index: 5;
+    max-width: 92rem;
+    padding: 0 4rem;
+    margin: 0 auto;
+  }
+  
+  .grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .text {
+    font-size: 1.25rem;
+    color: var(--dark-two); // Azul grisáceo para el texto
+    line-height: 1.6;
+  }
+  
+  .column-1 {
+    margin-right: 1.5rem;
+  }
+  
+  .column-2 {
+    margin-left: 1.5rem;
+  }
+  
+  .image {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .z-index {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .points {
+    opacity: 0.3;
+    position: absolute;
+  }
+  
+  .section {
+    padding: 7rem 0;
+    overflow: hidden;
+  }
+  
+  .section-header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .title {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 1rem;
+    line-height: 1;
+    font-size: 2.8rem;
+    margin-bottom: 0.6rem;
+    color: var(--main-color); // Rosa claro para los títulos
+  }
+  
+  .title:before {
+    content: attr(data-title);
+    display: block;
+    margin-bottom: 0.4rem;
+    color: var(--dark-one); // Rosa (color primario) para el subtítulo
+    font-size: 1.15rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  
+  .title:after {
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 5px;
+    border-radius: 3px;
+    background-color: var(--main-color); // Barra rosa claro
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .section-header .text {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .title-sm {
+    color: var(--dark-two); // Azul grisáceo para los títulos pequeños
+    font-weight: 600;
+    font-size: 1.6rem;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 0.85rem 2rem;
+    background-color: var(--main-color); // Rosa claro para los botones
+    color: var(--light-one); // Texto blanco en el botón
+    border-radius: 2rem;
+    font-size: 1.05rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: 0.3s;
+    border: none;
+  
+    &:hover {
+      background-color: var(--dark-one); // Rosa más oscuro en hover
+    }
+  }
+  
+  .header-content {
+    margin-top: 6rem;
+  }
+  
+  .header-content .container.grid-2 {
+    grid-template-columns: 2.5fr 3.5fr;
+    min-height: calc(100vh - 6rem);
+    padding-bottom: 0;
+    margin-bottom: 0;
+    text-align: left;
+  }
+  
+  .header-title {
+    font-size: 3.8rem;
+    line-height: 0.8;
+    color: var(--dark-one); // Título en rosa principal
+  }
+  
+  .header-content .text {
+    margin: 2.15rem 0;
+    color: var(--dark-two); // Texto en azul grisáceo
+  }
+  
+  .header-content .image .img-element {
+    max-width: 750px;
+  }
+  
+  header .points2 {
+    width: 70%;
+    top: 10%;
+    left: 36%;
+  }
+  
+  .about {
+    overflow: hidden;
+  }
+  
+  .about img {
+    max-width: 600px;
+  }
+  
+  .about .text {
+    margin-top: 1rem;
+    color: var(--dark-two); // Texto en azul grisáceo para la sección "Acerca de Mí"
+  }
+  
+  .skills {
+    margin: 1.5rem 0 2.5rem 0;
+  }
+  
+  .skill {
+    margin: 1rem 0;
+  }
+  
+  .skill-title {
+    color: var(--dark-one); // Títulos de habilidades en rosa oscuro
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+  }
+  
+  .skill-bar {
+    width: 70%;
+    height: 8px;
+    border-radius: 4px;
+    background-color: var(--light-two); // Fondo claro para la barra de habilidades
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .skill-progress {
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    top: 0;
+    left: 0;
+    background-color: var(--main-color); // Progreso en rosa claro
+    transition: 1s;
+  }
+  
+  .about .column-1 {
+    position: relative;
+  }
+  
+  .about .column-1:before {
+    content: "About";
+    position: absolute;
+    font-size: 8rem;
+    font-weight: 800;
+    color: var(--dark-one); // Fondo de "About" en rosa oscuro
+    opacity: 0.04;
+    top: 20px;
+    left: 0;
+    line-height: 0;
+  }
+  
+  .title, .header-title {
+      color: var(--dark-one); // Títulos en rosa oscuro
+  }
+  

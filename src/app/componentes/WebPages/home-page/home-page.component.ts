@@ -1,0 +1,69 @@
+import { ChangeDetectionStrategy, ChangeDetectorRef, Component, OnDestroy, OnInit } from '@angular/core';
+import { EmprendedorService } from '../../../servicios/emprendedores/emprendedor.service';
+import { Emprendedor } from '../../../interfaces/emprendedor';
+import { MatButtonModule } from '@angular/material/button';
+import { MatCardModule } from '@angular/material/card';
+import { RouterModule, NavigationEnd, Router } from '@angular/router'; 
+import { Subscription } from 'rxjs';
+import { filter } from 'rxjs/operators';
+
+@Component({
+  selector: 'app-home-page',
+  standalone: true,
+  imports: [MatCardModule, MatButtonModule, RouterModule],
+  templateUrl: './home-page.component.html',
+  styleUrls: ['./home-page.component.scss'],
+  changeDetection: ChangeDetectionStrategy.OnPush
+})
+export class HomePageComponent implements OnInit, OnDestroy {
+  emprendedores: Emprendedor[] = [];
+  private subscription: Subscription = new Subscription();
+  loading: boolean = true;
+  error: string | null = null;
+
+  constructor(
+    private emprendedorService: EmprendedorService,
+    private router: Router, // Inyectamos el Router
+    private cdr: ChangeDetectorRef
+  ) {}
+
+  ngOnInit(): void {
+    console.log("Cargando emprendedores...");
+    this.loadEmprendedores();
+
+    // Suscribirse a los eventos de navegación
+    this.subscription.add(
+      this.router.events.pipe(
+        filter(event => event instanceof NavigationEnd) // Filtra solo eventos de NavigationEnd
+      ).subscribe(() => {
+        this.loadEmprendedores(); // Carga nuevamente los emprendedores al navegar
+      })
+    );
+  }
+
+  ngOnDestroy(): void {
+    this.subscription.unsubscribe(); // Cancelar la suscripción al destruir el componente
+    this.emprendedorService.resetCurrentIndex();
+    console.log("Componente destruido");
+    this.emprendedorService.ShowCurrentIndex();
+  }
+
+  private loadEmprendedores(): void {
+    this.loading = true; // Indicamos que estamos cargando datos
+    this.subscription.add(
+      this.emprendedorService.getRandomEmprendedores().subscribe(
+        (data) => {
+          this.emprendedores = data;
+          this.loading = false; // Indicamos que hemos terminado de cargar
+          this.cdr.markForCheck(); // Marca el componente para verificación de cambios
+        },
+        (error) => {
+          this.error = 'Error al cargar emprendedores';
+          this.loading = false; // Indicamos que hemos terminado de cargar, aunque hubo un error
+          console.error('Error al cargar emprendedores:', error);
+          this.cdr.markForCheck(); // Marca el componente para verificación de cambios
+        }
+      )
+    );
+  }
+}

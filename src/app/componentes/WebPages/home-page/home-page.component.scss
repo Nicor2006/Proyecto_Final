@@ -1,0 +1,62 @@
+.example-card {
+    max-width: 100%; /* Permite que las tarjetas ocupen el ancho completo disponible */
+  }
+  
+  img {
+    width: 100%; /* Asegúrate de que la imagen ocupe el ancho completo de la tarjeta */
+    height: auto; /* Mantén la proporción de la imagen */
+  }
+  
+  /* Contenedor de las tarjetas */
+  .tarjetas-contenedor {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 columnas en pantallas grandes */
+    gap: 16px; /* Espacio entre las tarjetas */
+    margin-top: 1rem; /* Añade un margen superior más grande */
+    margin-bottom: 1rem;
+  }
+  
+  /* Ajuste para pantallas medianas */
+  @media (max-width: 1200px) {
+    .tarjetas-contenedor {
+      grid-template-columns: repeat(4, 1fr); /* 4 columnas en pantallas medianas */
+    }
+  }
+  
+  /* Ajuste para pantallas pequeñas */
+  @media (max-width: 900px) {
+    .tarjetas-contenedor {
+      grid-template-columns: repeat(3, 1fr); /* 3 columnas en pantallas pequeñas */
+    }
+  
+    .example-card {
+      max-width: 100%; /* Asegura que las tarjetas no se desborden */
+    }
+  }
+  
+  /* Ajuste para pantallas móviles */
+  @media (max-width: 600px) {
+    .tarjetas-contenedor {
+      grid-template-columns: repeat(2, 1fr); /* 2 columnas en pantallas móviles */
+    }
+  
+    .example-card {
+      max-width: 100%; /* Ajusta las tarjetas en pantallas pequeñas */
+    }
+  
+    img {
+      max-width: 100%; /* Imagenes más pequeñas en móviles */
+    }
+  }
+  
+  /* Ajuste para pantallas muy pequeñas (teléfonos en vertical) */
+  @media (max-width: 400px) {
+    .tarjetas-contenedor {
+      grid-template-columns: 1fr; /* 1 columna en teléfonos muy pequeños */
+    }
+  
+    .example-card {
+      margin-bottom: 1rem; /* Espaciado adicional entre tarjetas */
+    }
+  }
+  

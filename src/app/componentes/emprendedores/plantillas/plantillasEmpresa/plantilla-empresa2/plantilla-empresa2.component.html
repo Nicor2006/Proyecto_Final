@@ -1,0 +1,20 @@
+@if (emprendedor) {
+    <div class="header-content">
+      <div class="container">
+        <div class="column-2 image">
+            <img [src]="emprendedor.MiEmpresa.imagenEmpresa" class="img-element" alt="" />
+          </div>
+        <div class="column-1">
+          <h1 class="header-title">{{emprendedor.MiEmpresa.nombre}}</h1>
+          @if (emprendedor.MiEmpresa.eslogan) {
+            <h3>{{emprendedor.MiEmpresa.eslogan}}</h3>
+          }
+          <p class="text">
+            {{emprendedor.MiEmpresa.descripcionEmpresa}}
+          </p>
+        </div>
+
+      </div>
+    </div>
+  }
+  

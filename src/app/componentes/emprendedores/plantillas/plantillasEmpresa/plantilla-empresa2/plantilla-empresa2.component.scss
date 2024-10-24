@@ -1,0 +1,58 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Contenedor principal */
+.header-content {
+    padding: 7rem 0; /* Espaciado superior e inferior */
+}
+
+.container {
+    display: flex; /* Usar flexbox para alinear columnas */
+    justify-content: space-between; /* Espacia el contenido de manera horizontal */
+    align-items: center; /* Centra verticalmente los elementos */
+    max-width: 92rem; /* Ancho máximo del contenedor */
+    padding: 0 4rem; /* Espaciado horizontal */
+    margin: 0 auto; /* Centra el contenedor */
+}
+
+/* Columna de texto */
+.column-1 {
+    flex: 1; /* Toma espacio proporcional */
+    display: flex; /* Usar flexbox dentro de la columna */
+    flex-direction: column; /* Organiza los elementos en columna */
+    justify-content: center; /* Centra verticalmente */
+    text-align: left; /* Alinea el texto a la izquierda */
+}
+
+/* Columna de imagen */
+.column-2 {
+    flex: 1; /* Toma espacio proporcional */
+    display: flex; /* Usar flexbox dentro de la columna */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
+/* Imagen principal */
+.img-element {
+    max-width: 80%; /* Asegura que no sobrepase el contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    width: 80%; /* Cambia el tamaño de la imagen al 100% de su contenedor */
+  }
+
+/* Estilos del título */
+.header-title {
+    font-size: 2.8rem; /* Tamaño del título */
+    color: #0097A7;
+    margin-bottom: 1rem; /* Margen inferior para separación */
+}
+
+/* Estilos del texto */
+.text {
+    font-size: 1.25rem; /* Tamaño de texto */
+    color: var(--dark-two);
+    line-height: 1.6; /* Espaciado entre líneas */
+}

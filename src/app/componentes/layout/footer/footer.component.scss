@@ -1,13 +1,39 @@
 .app-footer {
-    background-color: #1976d2; // Color primario de Angular
+    width: 100%; // Asegurarse de que ocupe todo el ancho
+    margin-top: auto; // Empujar el footer al final del contenedor
+    background-color: black; // Color de fondo
     color: white;
+    display: flex; // Asegurarse de que el footer use flex
+    flex-direction: column; // Cambiar a columna para que el contenido se apile verticalmente
+    justify-content: flex-start; // Alinear al inicio
+    padding: 10px 20px; // Espaciado del footer
+    box-sizing: border-box; // Asegurar que el padding no aumente el ancho
+    overflow-wrap: break-word; // Permitir que el texto largo se divida
 
-    mat-toolbar {
-        justify-content: space-between; // Espaciado entre los elementos
-        padding: 16px;
+    .footer-content {
+        width: 100%; // Asegurarse de que el contenido ocupe todo el ancho
+        display: flex; // Permitir que el contenido use flex
+        flex-direction: column; // Alinear los elementos en columna
+        flex-wrap: wrap; // Permitir que los elementos se dividan en múltiples líneas
 
-        .spacer {
-            flex: 1 1 auto; // Para empujar los enlaces a la derecha
+        .footer-text {
+            margin: 0; // Asegurar que no haya márgenes innecesarios
+            font-family: Roboto, "Helvetica Neue", sans-serif; // Tipografía deseada
+            text-align: left; // Alinear el texto a la izquierda
+            white-space: normal; // Permitir saltos de línea
+            word-wrap: break-word; // Romper palabras largas si es necesario
+            overflow-wrap: break-word; // Permitir que el texto se divida
+            padding: 0 10px; // Espacio interno para evitar el desbordamiento
         }
+    }
+
+    .spacer {
+        flex: 1 1 auto; // Para empujar los enlaces a la derecha
+    }
+
+    a {
+        margin-left: 10px; // Espaciado entre enlaces
+        color: white; // Asegurarse de que los enlaces sean visibles
+        font-family: Roboto, "Helvetica Neue", sans-serif; // Tipografía deseada para los enlaces
     }
 }

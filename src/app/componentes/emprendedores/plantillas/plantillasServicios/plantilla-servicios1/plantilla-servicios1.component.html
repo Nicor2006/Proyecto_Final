@@ -2,26 +2,39 @@
   <section class="services section" id="services">
     <div class="container">
       <div class="section-header">
-        <h3 class="title" data-title="Lo que hago">{{emprendedor.QueOfrezco}}</h3>
+        <h3 class="title" data-title="Lo que hago">Mis {{emprendedor.QueOfrezco}}</h3>
         <p class="text">Tenemos 3 grandes opciones para ti</p>
       </div>
       <div class="cards"> <!-- Asegúrate de que este div esté aquí -->
         @for (item of emprendedor.MisProductos; track item.id) {
-          <div class="card">
+          <mat-card class="card">
             <div class="card-content z-index">
-              <img [src]="item.imagenProducto" class="img" alt="" />
-              <h3 class="title-sm">{{item.nombreProducto}}</h3>
-              <p class="text">{{item.descripcionProducto}}</p>
-              <p>{{item.precioProducto}}</p>
+              <mat-card-header>
+                <div class="title-container">
+                  <mat-card-title class="product-title">{{ item.nombreProducto }}</mat-card-title>
+                </div>
+              </mat-card-header>
+              <img mat-card-image [src]="item.imagenProducto" class="img" alt="" />
+              <mat-card-subtitle>{{ item.precioProducto }}</mat-card-subtitle>
+              <mat-card-content>
+                <mat-card-subtitle class="product-description">{{item.descripcionProducto}} </mat-card-subtitle>
+              </mat-card-content>
             </div>
-          </div>
+          </mat-card>
         }
       </div>
+      @if(emprendedor.QueOfrezco == "servicios"){    
+         <div class="link-container">
+        <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+      </div>
+      <!-- end Google Calendar Appointment Scheduling -->
+      <div class="calendar-button-container"></div>
+    } @else {         
+      <div class="link-container">
+        <a mat-button [href]="emprendedor.whatsapp" target="_blank" class="green-button">Mira mi whatsapp</a>
     </div>
+    }
+    </div>
+
   </section>
-  <div class="link-container">
-    <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
-  </div>
-  <!-- end Google Calendar Appointment Scheduling -->
-  <div class="calendar-button-container"></div>
 }

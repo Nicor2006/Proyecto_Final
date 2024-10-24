@@ -1,17 +1,33 @@
 @if (emprendedor) {
-    
-    <div class="emprendedor-card">
-        <img class="emprendedor-imagen" [src]="emprendedor.imagen" alt="Imagen del emprendedor">
-        <h3 class="emprendedor-nit">
-            {{emprendedor.nit}}
-        </h3>
-        <h2>
-            {{emprendedor.nombre}}
-        </h2>
-        <p class="emprendedor-descripcion">
-            {{emprendedor.descripcion}}
-        </p>
-        <!-- Google Calendar Appointment Scheduling begin -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h3 class="title" data-title="Conoce más" style="color: #0097A7;"> <span style="color: black;">Acerca de Mí</span></h3>
+            </div>
 
-    </div>
+            <div class="section-body grid-2">
+                <div class="column-1">
+                    <h2 class="header-title">{{emprendedor.nombre}}</h2>
+                    <p class="text">
+                        {{emprendedor.descripcion}}
+                    </p>
+                    <div class="skills">
+                        <div class="skill html">
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90%" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <!-- Agrega más habilidades aquí -->
+                    </div>
+                    <div class="example-button-row">
+                      <button mat-flat-button>Mi portafolio </button>
+                    </div>
+                </div>
+
+                <div class="column-2 image">
+                    <img [src]="emprendedor.imagen" class="z-index" alt="Imagen Acerca de Mí" />
+                </div>
+            </div>
+        </div>
+    </section>
 }

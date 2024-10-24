@@ -9,6 +9,7 @@ import { Emprendedor } from '../../interfaces/emprendedor';
 })
 export class EmprendedorService {
   private dataUrl = 'assets/emprendedores.json';
+  private currentIndex = 0;
 
   constructor(private http: HttpClient) {}
 
@@ -24,5 +25,32 @@ export class EmprendedorService {
         emprendedores.find(emprendedor => emprendedor.cedula === id)
       )
     );
+  }
+  getRandomEmprendedores(): Observable<Emprendedor[]> {
+    return this.getEmprendedores().pipe(
+      map(emprendedores => {
+        const shuffled = this.shuffleArray(emprendedores);
+        const startIndex = this.currentIndex;
+        const endIndex = startIndex + 20;
+        this.currentIndex = endIndex; // Actualizar el índice para la próxima llamada
+        return shuffled.slice(startIndex, endIndex); // Devolverá menos de 20 si no hay suficientes
+      })
+    );
+  }
+
+  resetCurrentIndex(): void {
+    this.currentIndex = 0
+  }
+  ShowCurrentIndex(): void {
+    console.log(this.currentIndex)
+  }
+
+  // Función para mezclar un array
+  private shuffleArray(array: Emprendedor[]): Emprendedor[] {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
   }
 }

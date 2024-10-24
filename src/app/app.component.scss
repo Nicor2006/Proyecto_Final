@@ -1,0 +1,5 @@
+.container {
+    display: flex;
+    flex-direction: column; // Apilar elementos verticalmente
+    min-height: 100vh; // Asegurarse de que ocupe toda la altura de la ventana
+}

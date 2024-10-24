@@ -5,15 +5,14 @@ import { EmprendedorService } from '../../../../../servicios/emprendedores/empre
 import { MatButtonModule } from '@angular/material/button';
 import { Emprendedor } from '../../../../../interfaces/emprendedor';
 
-
 @Component({
-  selector: 'app-plantilla1',
+  selector: 'app-plantilla-empresa2',
   standalone: true,
   imports: [HttpClientModule, MatButtonModule],
-  templateUrl: './plantilla1.component.html',
-  styleUrls: ['./plantilla1.component.scss'],
+  templateUrl: './plantilla-empresa2.component.html',
+  styleUrl: './plantilla-empresa2.component.scss'
 })
-export class Plantilla1Component implements OnInit {
+export class PlantillaEmpresa2Component implements OnInit {
   emprendedor: Emprendedor | undefined
   cedula = 0;
 

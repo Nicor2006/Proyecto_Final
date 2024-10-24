@@ -1,0 +1,73 @@
+/* Variables */
+:root {
+    --dark-one: #333;
+    --dark-two: #7a7a7a;
+    --main-color: rgb(13, 0, 193);
+    --secondary-color: #47008b;
+    --light-one: #fff;
+    --light-two: #f9fafb;
+    --light-three: #f6f7fb;
+}
+
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    z-index: 5;
+    max-width: 92rem;
+    padding: 0 4rem;
+    margin: 0 auto;
+}
+
+.header-content {
+    display: flex; /* Cambia a flexbox */
+    justify-content: space-between; /* Espacia el contenido de manera horizontal */
+    padding: 7rem 0; /* Ajusta el padding según sea necesario */
+}
+
+.column-1 {
+    flex: 1; /* Toma espacio proporcional */
+    display: flex;
+    flex-direction: column; /* Organiza los elementos en columna */
+    justify-content: center; /* Centra verticalmente */
+    text-align: left; /* Alinea el texto a la izquierda */
+}
+
+.column-2 {
+    flex: 1; /* Toma espacio proporcional */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente la imagen */
+    align-items: center; /* Centra verticalmente */
+}
+
+.image {
+    position: relative;
+}
+
+.img-element {
+    max-width: 100%; /* Asegúrate de que la imagen no desborde */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.header-title {
+    font-size: 2.8rem; /* Ajusta el tamaño del título */
+    color: var(--dark-one);
+    align-self: center;
+    margin-bottom: 1rem; /* Margen inferior para separación */
+}
+
+.text {
+    font-size: 1.25rem; /* Tamaño de texto */
+    color: var(--dark-two);
+    align-self: center;
+    line-height: 1.6; /* Espaciado entre líneas */
+}
+
+.z-index {
+    z-index: 5; /* Mantén este z-index si es necesario */
+}
