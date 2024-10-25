@@ -1,4 +1,5 @@
 import { Empresa } from "./empresa";
+import { Plantillas } from "./plantillas";
 import { Producto } from "./producto";
 
 export interface Emprendedor {
@@ -11,4 +12,5 @@ export interface Emprendedor {
     QueOfrezco: 'productos' | 'servicios';
     MisProductos: Producto[]
     MiEmpresa: Empresa
+    Plantillas: Plantillas
 }

@@ -1,3 +1,35 @@
-<app-plantilla-empresa2></app-plantilla-empresa2>
-<app-plantilla-servicios1></app-plantilla-servicios1>
-<app-plantilla1></app-plantilla1>
+@if (plantillas) {
+    @switch (plantillas.plantillaEmpresa) {
+        @case (1) {
+        <app-plantilla-empresa1></app-plantilla-empresa1>
+        }
+        @case (2) {
+        <app-plantilla-empresa2></app-plantilla-empresa2>
+        }
+        @default {
+        <app-plantilla-empresa1></app-plantilla-empresa1>
+        }
+    }
+    @switch (plantillas.plantillaEmpresa) {
+        @case (1) {
+        <app-plantilla-servicios1></app-plantilla-servicios1>
+        }
+        @case (2) {
+        <app-plantilla-servicios2></app-plantilla-servicios2>
+        }
+        @default {
+        <app-plantilla-servicios1></app-plantilla-servicios1>
+        }
+    }
+    @switch (plantillas.plantillaEmpresa) {
+        @case (1) {
+            <app-plantilla1></app-plantilla1>
+        }
+        @case (2) {
+            <app-plantilla1></app-plantilla1>
+        }
+        @default {
+            <app-plantilla1></app-plantilla1>
+        }
+    }
+}

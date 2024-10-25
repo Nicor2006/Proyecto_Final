@@ -1,6 +1,6 @@
 <div class="tarjetas-contenedor">
-@if (emprendedores) {
-    @for (item of emprendedores; track item.cedula) {<mat-card class="example-card" appearance="outlined">
+@if (filteredEmprendedores) {
+    @for (item of filteredEmprendedores; track item.cedula) {<mat-card class="example-card" appearance="outlined">
         <mat-card-header style="color: white;">
             <mat-card-title style="color: #0097A7;">{{item.MiEmpresa.nombre}}</mat-card-title>
             <mat-card-subtitle>{{item.nombre}}</mat-card-subtitle>

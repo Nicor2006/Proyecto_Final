@@ -1,0 +1,65 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Contenedor principal */
+.header-content {
+    padding: 7rem 0; /* Espaciado superior e inferior */
+}
+
+/* Contenedor de columnas */
+.container {
+    display: flex; /* Usar flexbox para alinear columnas */
+    align-items: flex-start; /* Alinear verticalmente al inicio */
+    padding: 0rem; /* Espaciado horizontal */
+    margin: 0 auto; /* Centra el contenedor */
+}
+
+/* Columna de imagen */
+.column-2 {
+    flex: 0 0 50%; /* Aumentar al 50% del ancho total */
+    display: flex; /* Usar flexbox dentro de la columna */
+    justify-content: flex-start; /* Alinea horizontalmente al inicio */
+    align-items: flex-start; /* Alinea verticalmente al inicio */
+    margin-right: 1rem; /* Espacio entre la imagen y el texto */
+}
+
+
+/* Imagen principal */
+.img-element {
+    max-width: 100%; /* Asegura que no sobrepase el contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    width: 100%; /* Cambia el tamaño de la imagen al 100% de su contenedor */
+}
+
+/* Columna de texto */
+.column-1 {
+    flex: 1; /* Toma espacio proporcional */
+    display: flex; /* Usar flexbox dentro de la columna */
+    flex-direction: column; /* Organiza los elementos en columna */
+    justify-content: flex-start; /* Alinea verticalmente al inicio */
+    text-align: center; /* Alinea el texto a la izquierda */
+}
+
+
+/* Estilos del título */
+.header-title {
+    font-size: 2.8rem; /* Tamaño del título */
+    color: #0097A7;
+    margin-bottom: 1rem; /* Margen inferior para separación */
+}
+
+/* Estilos del texto */
+.text {
+    font-size: 1.25rem; /* Tamaño de texto */
+    line-height: 1.6; /* Espaciado entre líneas */
+}
+
+.calendar-button-container {
+    display: flex;
+    justify-content: center; /* Centra el enlace horizontalmente */
+    margin-top: 20px; /* Añadir un margen superior si es necesario */
+}

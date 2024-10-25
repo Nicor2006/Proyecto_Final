@@ -31,11 +31,16 @@
       }
     ],
     "MiEmpresa": {
-      "nombre":"Marketing Digital Express",
+      "nombre": "Marketing Digital Express",
       "nit": 123456789,
       "imagenEmpresa": "https://img.freepik.com/vector-gratis/vector-degradado-logotipo-colorido-pajaro_343694-1365.jpg",
       "descripcionEmpresa": "Consultora especializada en soluciones de marketing digital.",
       "eslogan": "Impulsa tu negocio al éxito digital"
+    },
+    "Plantillas": {
+      "plantillaEmpresa": 1,
+      "plantillaServicios": 2,
+      "plantillaPersonal": 1
     }
   },
   {
@@ -70,11 +75,16 @@
       }
     ],
     "MiEmpresa": {
-      "nombre":"Equilibrio Emocional",
+      "nombre": "Equilibrio Emocional",
       "nit": 987654321,
       "imagenEmpresa": "https://img.freepik.com/vector-gratis/vector-degradado-logotipo-colorido-pajaro_343694-1365.jpg",
       "descripcionEmpresa": "Servicios psicológicos y de bienestar emocional.",
       "eslogan": "Cuidando tu salud mental"
+    },
+    "Plantillas": {
+      "plantillaEmpresa": 2,
+      "plantillaServicios": 1,
+      "plantillaPersonal": 1
     }
   },
   {
@@ -109,11 +119,16 @@
       }
     ],
     "MiEmpresa": {
-      "nombre":"TecnoHost",
+      "nombre": "TecnoHost",
       "nit": 456123789,
       "imagenEmpresa": "https://img.freepik.com/vector-gratis/vector-degradado-logotipo-colorido-pajaro_343694-1365.jpg",
       "descripcionEmpresa": "Soluciones de software personalizadas para empresas.",
       "eslogan": "Innovación a través de la tecnología"
+    },
+    "Plantillas": {
+      "plantillaEmpresa": 1,
+      "plantillaServicios": 1,
+      "plantillaPersonal": 2
     }
   },
   {
@@ -127,32 +142,37 @@
     "MisProductos": [
       {
         "id": 1,
-        "nombreProducto": "Manicura",
+        "nombreProducto": "Manicura Básica",
         "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
-        "precioProducto": "20 USD",
-        "descripcionProducto": "Servicio de manicura con enfoque en la estética minimalista."
+        "precioProducto": "15 USD",
+        "descripcionProducto": "Manicura básica con esmalte de alta calidad."
       },
       {
         "id": 2,
-        "nombreProducto": "Pedicura",
+        "nombreProducto": "Uñas Acrílicas",
         "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
-        "precioProducto": "25 USD",
-        "descripcionProducto": "Servicio de pedicura con productos de alta calidad."
+        "precioProducto": "40 USD",
+        "descripcionProducto": "Aplicación de uñas acrílicas con diseños personalizados."
       },
       {
         "id": 3,
-        "nombreProducto": "Decoración de Uñas",
+        "nombreProducto": "Pedicura Spa",
         "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
-        "precioProducto": "30 USD",
-        "descripcionProducto": "Decoración de uñas con diseños personalizados."
+        "precioProducto": "25 USD",
+        "descripcionProducto": "Pedicura con tratamiento spa."
       }
     ],
     "MiEmpresa": {
-      "nombre":"Minimal Beauty",
-      "nit": 789456123,
+      "nombre": "Belleza y Estilo",
+      "nit": 321654987,
       "imagenEmpresa": "https://img.freepik.com/vector-gratis/vector-degradado-logotipo-colorido-pajaro_343694-1365.jpg",
-      "descripcionEmpresa": "Centro de belleza y estética minimalista.",
-      "eslogan": "Belleza en cada detalle"
+      "descripcionEmpresa": "Servicios de belleza y estética personal.",
+      "eslogan": "La belleza empieza aquí"
+    },
+    "Plantillas": {
+      "plantillaEmpresa": 2,
+      "plantillaServicios": 2,
+      "plantillaPersonal": 2
     }
   }
 ]

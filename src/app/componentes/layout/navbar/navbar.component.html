@@ -1,8 +1,8 @@
 
 @if (emprendedor) {
   <mat-toolbar color="accent">
-    <button mat-raised-button class="example-icon" aria-label="Example icon-button with menu icon">
-      <mat-icon>menu</mat-icon>
+    <button mat-raised-button class="example-icon" aria-label="Example icon-button with menu icon" routerLink='/home'>
+      <mat-icon >home</mat-icon>
     </button>
     <span style="color:#00DDDB;">{{emprendedor.MiEmpresa.nombre}}</span> <!-- Texto junto al icono -->
     <span class="example-spacer"></span>
@@ -18,18 +18,9 @@
 }
 @else {
   <mat-toolbar>
-    <button mat-raised-button class="example-icon" aria-label="Example icon-button with menu icon">
-      <mat-icon>menu</mat-icon>
+    <button mat-raised-button class="example-icon" aria-label="Example icon-button with menu icon" routerLink='/home'>
+      <mat-icon>home</mat-icon>
     </button>
-    <span style="color:#00DDDB;">PlaceHolder</span> <!-- Placeholder para el caso sin emprendedor -->
-    <span class="example-spacer"></span>
-    <section style="margin-left: auto;"> <!-- Agregar este estilo para empujar el contenido a la derecha -->
-      <div class="example-button-row">
-        <button mat-raised-button>Presentacion Empresa</button>
-        <button mat-raised-button>PlaceHolder</button>
-        <button mat-raised-button>Presentacion Personal</button>
-        <a mat-raised-button [href]="" target="_blank">Mira mi whatsapp</a>
-      </div>
-    </section>
+    <app-search-bar></app-search-bar>
   </mat-toolbar>
 }

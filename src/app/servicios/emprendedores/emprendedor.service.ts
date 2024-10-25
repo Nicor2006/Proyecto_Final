@@ -26,6 +26,25 @@ export class EmprendedorService {
       )
     );
   }
+  getPlantillasById(id: number): Observable<any | undefined> {
+    return this.getEmprendedores().pipe(
+      map((emprendedores: Emprendedor[]) => {
+        const emprendedor = emprendedores.find(emprendedor => emprendedor.cedula === id);
+        return emprendedor ? emprendedor.Plantillas : undefined; // Retorna solo las plantillas
+      })
+    );
+  }
+
+  getEmprendedoresByQueOfrezco(queOfrezco: string): Observable<Emprendedor[]> {
+    return this.getEmprendedores().pipe(
+      map((emprendedores: Emprendedor[]) =>
+        emprendedores.filter(emprendedor => 
+          emprendedor.QueOfrezco.toLowerCase().includes(queOfrezco.toLowerCase())
+        )
+      )
+    );
+  }
+
   getRandomEmprendedores(): Observable<Emprendedor[]> {
     return this.getEmprendedores().pipe(
       map(emprendedores => {
@@ -41,10 +60,6 @@ export class EmprendedorService {
   resetCurrentIndex(): void {
     this.currentIndex = 0
   }
-  ShowCurrentIndex(): void {
-    console.log(this.currentIndex)
-  }
-
   // Función para mezclar un array
   private shuffleArray(array: Emprendedor[]): Emprendedor[] {
     for (let i = array.length - 1; i > 0; i--) {

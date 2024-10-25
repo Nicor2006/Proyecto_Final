@@ -1,10 +1,17 @@
 /* NavBar Styles */
 mat-toolbar {
   display: flex;
-  justify-content: flex-start; /* Cambiar a flex-start para alinear al inicio */
+  justify-content: space-between; /* Espacio entre los elementos, dejando el search-bar centrado */
   align-items: center; /* Asegura que los elementos estén centrados verticalmente */
   flex-wrap: wrap;
   margin-bottom: 20px; /* Espacio debajo de la NavBar */
+}
+
+/* Estilo para centrar el search-bar */
+app-search-bar {
+  flex-grow: 1; /* Permite que el search-bar crezca y ocupe el espacio disponible */
+  display: flex; /* Usar flex para centrar contenido dentro del search-bar */
+  justify-content: center; /* Centrar el contenido horizontalmente */
 }
 
 /* Estilos para los botones en la barra de navegación */
@@ -13,6 +20,7 @@ mat-toolbar {
   gap: 8px;
   margin-left: auto; /* Empuja los botones hacia la derecha */
 }
+
 /* Estilos para el texto de la empresa */
 mat-toolbar span {
   margin-left: 8px; /* Espacio entre el ícono y el texto */
