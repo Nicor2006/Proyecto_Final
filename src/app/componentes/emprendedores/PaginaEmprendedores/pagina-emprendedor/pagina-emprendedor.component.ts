@@ -4,12 +4,11 @@ import { PlantillaServicios1Component } from '../../plantillas/plantillasServici
 import { PlantillaEmpresa1Component } from '../../plantillas/plantillasEmpresa/plantilla-empresa1/plantilla-empresa1.component';
 import { PlantillaEmpresa2Component } from '../../plantillas/plantillasEmpresa/plantilla-empresa2/plantilla-empresa2.component';
 import { PlantillaServicios2Component } from '../../plantillas/plantillasServicios/plantilla-servicios2/plantilla-servicios2.component';
-import { ActivatedRoute, NavigationEnd, Router, RouterModule } from '@angular/router';
+import { ActivatedRoute, RouterModule } from '@angular/router';
 import { EmprendedorService } from '../../../../servicios/emprendedores/emprendedor.service';
 import { HttpClientModule } from '@angular/common/http';
-import { Emprendedor } from '../../../../interfaces/emprendedor';
-import { filter } from 'rxjs';
 import { Plantillas } from '../../../../interfaces/plantillas';
+import { PlantillaPersonal2Component } from '../../plantillas/PlantillasPresentacionPersonal/plantilla-personal2/plantilla-personal2.component';
 
 @Component({
   selector: 'app-pagina-emprendedor',
@@ -21,8 +20,9 @@ import { Plantillas } from '../../../../interfaces/plantillas';
     PlantillaEmpresa1Component,
     PlantillaEmpresa2Component,
     HttpClientModule,
-    RouterModule
-  ],
+    RouterModule,
+    PlantillaPersonal2Component
+],
   templateUrl: './pagina-emprendedor.component.html',
   styleUrls: ['./pagina-emprendedor.component.scss']
 })
@@ -36,6 +36,14 @@ export class PaginaEmprendedorComponent implements OnInit  {
   ) {}
 
   ngOnInit(): void {
+    this.route.fragment.subscribe(fragment => {
+      if (fragment) {
+        const element = document.getElementById(fragment);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+      }
+    });
     this.route.paramMap.subscribe((params) => {
       const cedula = params.get('cedula');
       if (cedula) {

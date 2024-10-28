@@ -1,4 +1,5 @@
 @if (plantillas) {
+    <div id="empresa">
     @switch (plantillas.plantillaEmpresa) {
         @case (1) {
         <app-plantilla-empresa1></app-plantilla-empresa1>
@@ -10,7 +11,9 @@
         <app-plantilla-empresa1></app-plantilla-empresa1>
         }
     }
-    @switch (plantillas.plantillaEmpresa) {
+</div>
+<div id="servicios">
+    @switch (plantillas.plantillaServicios) {
         @case (1) {
         <app-plantilla-servicios1></app-plantilla-servicios1>
         }
@@ -21,15 +24,19 @@
         <app-plantilla-servicios1></app-plantilla-servicios1>
         }
     }
-    @switch (plantillas.plantillaEmpresa) {
+</div>
+<div id="Personal">
+    @switch (plantillas.plantillaPersonal) {
         @case (1) {
             <app-plantilla1></app-plantilla1>
         }
         @case (2) {
-            <app-plantilla1></app-plantilla1>
+            <app-plantilla-personal2></app-plantilla-personal2>
         }
         @default {
             <app-plantilla1></app-plantilla1>
         }
     }
+</div>
 }
+

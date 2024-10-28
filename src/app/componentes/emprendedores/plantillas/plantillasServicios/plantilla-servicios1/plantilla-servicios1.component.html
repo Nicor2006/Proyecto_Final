@@ -1,5 +1,5 @@
 @if (emprendedor) {
-  <section class="services section" id="services">
+  <section class="services section" id="{{emprendedor.QueOfrezco}}">
     <div class="container">
       <div class="section-header">
         <h3 class="title" data-title="Lo que hago">Mis {{emprendedor.QueOfrezco}}</h3>
@@ -15,7 +15,7 @@
                 </div>
               </mat-card-header>
               <img mat-card-image [src]="item.imagenProducto" class="img" alt="" />
-              <mat-card-subtitle>{{ item.precioProducto }}</mat-card-subtitle>
+              <mat-card-subtitle style="color: black;">{{ item.precioProducto }}</mat-card-subtitle>
               <mat-card-content>
                 <mat-card-subtitle class="product-description">{{item.descripcionProducto}} </mat-card-subtitle>
               </mat-card-content>
@@ -31,7 +31,7 @@
       <div class="calendar-button-container"></div>
     } @else {         
       <div class="link-container">
-        <a mat-button [href]="emprendedor.whatsapp" target="_blank" class="green-button">Mira mi whatsapp</a>
+        <a mat-button [href]="emprendedor.whatsapp" target="_blank" class="green-button" style="color: black;">Mira mi whatsapp</a>
     </div>
     }
     </div>

@@ -8,7 +8,6 @@ import { Emprendedor } from '../../../interfaces/emprendedor';
 import { filter } from 'rxjs/operators';
 import { SearchBarComponent } from '../search-bar/search-bar.component';
 
-
 @Component({
   selector: 'app-navbar',
   standalone: true,
@@ -49,9 +48,14 @@ export class NavbarComponent implements OnInit {
           this.emprendedor = undefined; // Maneja el error como prefieras
         }
       );
-    } else {
-      this.cedula = -1;
-      this.emprendedor = undefined; // O manejar esto como prefieras
-    }
+    } 
+  }
+  navegarASecion(fragment: string): void {
+    // Obtener la ruta actual y navegar a ella con el nuevo fragmento
+    const currentUrl = this.router.url.split('#')[0]; // Obtener la parte base de la URL
+    this.router.navigateByUrl(`${currentUrl}#${fragment}`); // Navegar usando la URL base con el nuevo fragmento
+  }
+  isHomePage(): boolean {
+    return this.router.url === '/home';
   }
 }

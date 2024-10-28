@@ -1,4 +1,6 @@
+
 @if (emprendedor) {
+    <div id="{{emprendedor.QueOfrezco}}">
     @for (item of emprendedor.MisProductos; track item.id) {
         @if(item.id%2 == 0){    
             <div class="header-content" style="background-color: #FAFAFA;">
@@ -44,4 +46,5 @@
        <a mat-button [href]="emprendedor.whatsapp" target="_blank" class="green-button">Mira mi whatsapp</a>
    </div>
    }
+</div>
 }

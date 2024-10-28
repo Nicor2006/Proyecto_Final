@@ -1,0 +1,11 @@
+@if (emprendedor) {
+<div class="full-width-presentation" id="{{emprendedor.nombre}}">
+    <div class="presentation-content">
+        <h1>{{emprendedor.nombre}}</h1>
+        <p>{{emprendedor.descripcion}}</p>
+    </div>
+    <div class="presentation-image">
+        <img [src]="emprendedor.imagen" alt="Imagen emprendedor">
+    </div>
+</div>
+}

@@ -1,62 +1,61 @@
 .example-card {
-    max-width: 100%; /* Permite que las tarjetas ocupen el ancho completo disponible */
+  max-width: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; // Transiciones suaves
+  border-radius: 10px; // Bordes ligeramente redondeados
+  overflow: hidden; // Evita que el contenido se salga de los bordes
+
+  &:hover {
+    transform: scale(1.05); // Escala leve al pasar el mouse
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); // Sombra para dar efecto de elevación
   }
-  
-  img {
-    width: 100%; /* Asegúrate de que la imagen ocupe el ancho completo de la tarjeta */
-    height: auto; /* Mantén la proporción de la imagen */
-  }
-  
-  /* Contenedor de las tarjetas */
+}
+
+img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease; // Transición en la imagen también
+}
+
+/* Contenedor de las tarjetas */
+.tarjetas-contenedor {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Ajuste para pantallas medianas */
+@media (max-width: 1200px) {
   .tarjetas-contenedor {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr); /* 5 columnas en pantallas grandes */
-    gap: 16px; /* Espacio entre las tarjetas */
-    margin-top: 1rem; /* Añade un margen superior más grande */
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Ajuste para pantallas pequeñas */
+@media (max-width: 900px) {
+  .tarjetas-contenedor {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Ajuste para pantallas móviles */
+@media (max-width: 600px) {
+  .tarjetas-contenedor {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .example-card {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .tarjetas-contenedor {
+    grid-template-columns: 1fr;
+  }
+
+  .example-card {
     margin-bottom: 1rem;
   }
-  
-  /* Ajuste para pantallas medianas */
-  @media (max-width: 1200px) {
-    .tarjetas-contenedor {
-      grid-template-columns: repeat(4, 1fr); /* 4 columnas en pantallas medianas */
-    }
-  }
-  
-  /* Ajuste para pantallas pequeñas */
-  @media (max-width: 900px) {
-    .tarjetas-contenedor {
-      grid-template-columns: repeat(3, 1fr); /* 3 columnas en pantallas pequeñas */
-    }
-  
-    .example-card {
-      max-width: 100%; /* Asegura que las tarjetas no se desborden */
-    }
-  }
-  
-  /* Ajuste para pantallas móviles */
-  @media (max-width: 600px) {
-    .tarjetas-contenedor {
-      grid-template-columns: repeat(2, 1fr); /* 2 columnas en pantallas móviles */
-    }
-  
-    .example-card {
-      max-width: 100%; /* Ajusta las tarjetas en pantallas pequeñas */
-    }
-  
-    img {
-      max-width: 100%; /* Imagenes más pequeñas en móviles */
-    }
-  }
-  
-  /* Ajuste para pantallas muy pequeñas (teléfonos en vertical) */
-  @media (max-width: 400px) {
-    .tarjetas-contenedor {
-      grid-template-columns: 1fr; /* 1 columna en teléfonos muy pequeños */
-    }
-  
-    .example-card {
-      margin-bottom: 1rem; /* Espaciado adicional entre tarjetas */
-    }
-  }
-  
+}

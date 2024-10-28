@@ -1,0 +1,27 @@
+input[type="text"] {
+    width: 300px;
+    padding: 10px 15px;
+    border: 2px solid #333; // Color de borde oscuro
+    border-radius: 20px; // Bordes redondeados
+    background-color: #3b3939; // Fondo oscuro
+    color: #f0f0f0; // Color del texto claro
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s ease;
+  
+    &::placeholder {
+      color: #888; // Color del placeholder
+      font-style: italic;
+    }
+  
+    &:focus {
+      border-color: #00bcd4; // Color de borde al enfocarse
+      background-color: #2c2c2c; // Cambio leve en el fondo al enfocarse
+      color: #ffffff;
+    }
+  
+    &:hover {
+      border-color: #00796b; // Color de borde al pasar el mouse
+    }
+  }
+  

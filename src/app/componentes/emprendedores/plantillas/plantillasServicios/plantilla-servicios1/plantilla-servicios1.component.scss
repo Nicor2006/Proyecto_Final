@@ -1,8 +1,9 @@
 $color-primary: #FB8C00; // Cian oscuro (color primario ajustado con menos brillo)
 $color-accent: #0097A7; // Naranja suave (color de acento con menos brillo)
-$color-secondary: #FF6F61; // Naranja rojizo más oscuro (color secundario con menos brillo)
+$color-secondary: #5d8ab4; // Naranja rojizo más oscuro (color secundario con menos brillo)
 $color-background: #F5F5F5; // Color de fondo (se mantiene)
-$color-white: #FFFFFF; // Blanco (se mantiene)
+$color-black: #000000; 
+$color-black-des: #1f1c1c; 
 $color-accent-light: lighten($color-accent, 10%); // Naranja suave claro para acentos
 $color-secondary-light: lighten($color-secondary, 10%); // Naranja suave claro para acentos
 
@@ -14,7 +15,7 @@ $color-secondary-light: lighten($color-secondary, 10%); // Naranja suave claro p
 }
 
 .product-title {
-  color: $color-white; // Cambia el color del texto a blanco
+  color: $color-black; // Cambia el color del texto a blanco
   margin: 0; // Elimina el margen para no dejar espacio hacia arriba
   font-size: 1.6rem; // Aumenta el tamaño de la fuente según sea necesario
   font-weight: bold; // Opcional: hacer que el texto sea más grueso
@@ -112,8 +113,6 @@ $color-secondary-light: lighten($color-secondary, 10%); // Naranja suave claro p
   white-space: normal; // Permite que el texto se divida en varias líneas
   text-align: left; // Alinea el texto a la izquierda
   padding: 0.5rem; // Añade un poco de padding para que el texto no toque los bordes del contenedor
-  
-  // Nuevas propiedades
   word-break: break-word; // Rompe las palabras largas si exceden el ancho del contenedor
   overflow: hidden; // Evita que el texto se desborde
   text-overflow: ellipsis; // Muestra "..." si el texto es demasiado largo
@@ -134,11 +133,10 @@ $color-secondary-light: lighten($color-secondary, 10%); // Naranja suave claro p
   width: 100%; // Asegúrate de que el contenedor ocupe todo el ancho
 }
 
-.product-title {
-  color: $color-white; // Color blanco para el nombre del producto
+.product-description {
+  color: $color-black-des; // Color blanco para el nombre del producto
   margin: 0; // Elimina el margen superior para evitar espacio hacia arriba
-  font-size: 1.6rem; // Aumenta el tamaño del texto según sea necesario
-  font-weight: bold; // Hace que el texto sea más grueso
+  font-size: 1.4rem; // Aumenta el tamaño del texto según sea necesario
   text-align: center; // Centra el título (opcional, si deseas que el título esté centrado)
   word-break: break-word; // Rompe las palabras largas si exceden el ancho del contenedor
   overflow: hidden; // Evita que el texto se desborde
