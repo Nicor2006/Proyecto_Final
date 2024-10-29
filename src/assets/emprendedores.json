@@ -174,5 +174,93 @@
       "plantillaServicios": 2,
       "plantillaPersonal": 2
     }
+  },
+  {
+    "nombre": "Sara López",
+    "imagen": "https://static.nationalgeographic.es/files/styles/image_3200/public/75552.ngsversion.1422285553360.jpg?w=1900&h=1267",
+    "cedula": 5,
+    "descripcion": "Estilista profesional especializada en corte y color de cabello.",
+    "calendario": "https://calendar.google.com/calendar/appointments/schedules/AcZssZ0Q91WO2kgUgn76d07xI0kki3Fudc8300zgjWq-4jor_tWScCKT2Int8_8jpXqTX9eh_mhrMLSi?gv=true",
+    "whatsapp": "https://wa.me/573179123456",
+    "QueOfrezco": "servicios",
+    "MisProductos": [
+      {
+        "id": 1,
+        "nombreProducto": "Corte de Cabello",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "20 USD",
+        "descripcionProducto": "Corte de cabello a la moda y asesoría de estilo."
+      },
+      {
+        "id": 2,
+        "nombreProducto": "Coloración",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "50 USD",
+        "descripcionProducto": "Coloración de cabello con productos de alta calidad."
+      },
+      {
+        "id": 3,
+        "nombreProducto": "Tratamiento Capilar",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "30 USD",
+        "descripcionProducto": "Tratamiento nutritivo para el cabello."
+      }
+    ],
+    "MiEmpresa": {
+      "nombre": "Estilo y Belleza",
+      "nit": 123456789,
+      "imagenEmpresa": "https://img.freepik.com/vector-gratis/vector-degradado-logotipo-colorido-pajaro_343694-1365.jpg",
+      "descripcionEmpresa": "Servicios de estilismo y belleza.",
+      "eslogan": "Transforma tu look con nosotros"
+    },
+    "Plantillas": {
+      "plantillaEmpresa": 2,
+      "plantillaServicios": 2,
+      "plantillaPersonal": 2
+    }
+  },
+  {
+    "nombre": "Pepe hernesto",
+    "imagen": "https://media.traveler.es/photos/613760adcb06ad0f20e11980/master/w_1600%2Cc_limit/202931.jpg",
+    "cedula": 6,
+    "descripcion": "Nutricionista certificado especializado en dietas personalizadas.",
+    "calendario": "https://calendar.google.com/calendar/appointments/schedules/AcZssZ0Q91WO2kgUgn76d07xI0kki3Fudc8300zgjWq-4jor_tWScCKT2Int8_8jpXqTX9eh_mhrMLSi?gv=true",
+    "whatsapp": "https://wa.me/573172345678",
+    "QueOfrezco": "servicios",
+    "MisProductos": [
+      {
+        "id": 1,
+        "nombreProducto": "Consulta Nutricional",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "30 USD",
+        "descripcionProducto": "Consulta para evaluar tus hábitos alimenticios."
+      },
+      {
+        "id": 2,
+        "nombreProducto": "Plan de Alimentación Personalizado",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "50 USD",
+        "descripcionProducto": "Plan de alimentación adaptado a tus necesidades."
+      },
+      {
+        "id": 3,
+        "nombreProducto": "Taller de Cocina Saludable",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "40 USD",
+        "descripcionProducto": "Aprende a cocinar de manera saludable."
+      }
+    ],
+    "MiEmpresa": {
+      "nombre": "Nutrición y Bienestar",
+      "nit": 987654321,
+      "imagenEmpresa": "https://img.freepik.com/vector-gratis/vector-degradado-logotipo-colorido-pajaro_343694-1365.jpg",
+      "descripcionEmpresa": "Consultoría nutricional y bienestar.",
+      "eslogan": "Tu salud es nuestra prioridad"
+    },
+    "Plantillas": {
+      "plantillaEmpresa": 2,
+      "plantillaServicios": 2,
+      "plantillaPersonal": 2
+    }
   }
 ]
