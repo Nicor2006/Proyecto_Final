@@ -35,11 +35,11 @@ export class EmprendedorService {
     );
   }
 
-  getEmprendedoresByQueOfrezco(queOfrezco: string): Observable<Emprendedor[]> {
+  getEmprendedoresByQueHago(queHago: string): Observable<Emprendedor[]> {
     return this.getEmprendedores().pipe(
       map((emprendedores: Emprendedor[]) =>
         emprendedores.filter(emprendedor => 
-          emprendedor.QueOfrezco.toLowerCase().includes(queOfrezco.toLowerCase())
+          emprendedor.QueHago.toLowerCase().includes(queHago.toLowerCase())
         )
       )
     );

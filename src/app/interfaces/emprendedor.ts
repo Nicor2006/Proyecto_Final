@@ -10,6 +10,7 @@ export interface Emprendedor {
     calendario: string;
     whatsapp: string;
     QueOfrezco: 'productos' | 'servicios';
+    QueHago : string;
     MisProductos: Producto[]
     MiEmpresa: Empresa
     Plantillas: Plantillas

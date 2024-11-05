@@ -4,9 +4,10 @@
     "imagen": "https://material.angular.io/assets/img/examples/shiba1.jpg",
     "cedula": 1,
     "descripcion": "Consultor de marketing digital especializado en pequeñas empresas.",
-    "calendario": "https://calendar.google.com/calendar/appointments/schedules/AcZssZ0Q91WO2kgUgn76d07xI0kki3Fudc8300zgjWq-4jor_tWScCKT2Int8_8jpXqTX9eh_mhrMLSi?gv=true",
+    "calendario": "https://calendar.app.google/DYMQ8NSicfh3sC6p6",
     "whatsapp": "https://wa.me/573178661369",
     "QueOfrezco": "productos",
+    "QueHago" : "Marketing",
     "MisProductos": [
       {
         "id": 1,
@@ -48,9 +49,10 @@
     "imagen": "https://static01.nyt.com/images/2018/03/18/fashion/16frenchie/16frenchie-superJumbo.jpg",
     "cedula": 2,
     "descripcion": "Psicóloga en crecimiento enfocada en el bienestar emocional.",
-    "calendario": "https://calendar.google.com/calendar/appointments/schedules/AcZssZ0Q91WO2kgUgn76d07xI0kki3Fudc8300zgjWq-4jor_tWScCKT2Int8_8jpXqTX9eh_mhrMLSi?gv=true",
+    "calendario": "https://calendar.app.google/DYMQ8NSicfh3sC6p6",
     "whatsapp": "https://wa.me/573178661369",
     "QueOfrezco": "servicios",
+    "QueHago" : "Psicologia",
     "MisProductos": [
       {
         "id": 1,
@@ -92,9 +94,10 @@
     "imagen": "https://media.istockphoto.com/id/1297445091/es/foto/shiba-inu-perro-de-raza-japon%C3%A9s.jpg?s=612x612&w=0&k=20&c=xnpxH__7TbPe4QWJtJ-CbRt7ogkDecwxOW1kb9QE000=",
     "cedula": 3,
     "descripcion": "Desarrollador de software freelance con enfoque en aplicaciones web.",
-    "calendario": "https://calendar.google.com/calendar/appointments/schedules/AcZssZ0Q91WO2kgUgn76d07xI0kki3Fudc8300zgjWq-4jor_tWScCKT2Int8_8jpXqTX9eh_mhrMLSi?gv=true",
+    "calendario": "https://calendar.app.google/DYMQ8NSicfh3sC6p6",
     "whatsapp": "https://wa.me/573178661369",
     "QueOfrezco": "productos",
+    "QueHago" : "Desarrollador de software",
     "MisProductos": [
       {
         "id": 1,
@@ -136,9 +139,10 @@
     "imagen": "https://www.elmueble.com/medio/2023/02/26/perro-de-raza-shiba-inu_b6387407_230226130353_900x900.jpg",
     "cedula": 4,
     "descripcion": "Técnica en uñas y belleza con un enfoque en la estética minimalista.",
-    "calendario": "https://calendar.google.com/calendar/appointments/schedules/AcZssZ0Q91WO2kgUgn76d07xI0kki3Fudc8300zgjWq-4jor_tWScCKT2Int8_8jpXqTX9eh_mhrMLSi?gv=true",
+    "calendario": "https://calendar.app.google/DYMQ8NSicfh3sC6p6",
     "whatsapp": "https://wa.me/573178661369",
     "QueOfrezco": "servicios",
+    "QueHago" : "Manicura, belleza",
     "MisProductos": [
       {
         "id": 1,
@@ -180,9 +184,10 @@
     "imagen": "https://static.nationalgeographic.es/files/styles/image_3200/public/75552.ngsversion.1422285553360.jpg?w=1900&h=1267",
     "cedula": 5,
     "descripcion": "Estilista profesional especializada en corte y color de cabello.",
-    "calendario": "https://calendar.google.com/calendar/appointments/schedules/AcZssZ0Q91WO2kgUgn76d07xI0kki3Fudc8300zgjWq-4jor_tWScCKT2Int8_8jpXqTX9eh_mhrMLSi?gv=true",
+    "calendario": "https://calendar.app.google/DYMQ8NSicfh3sC6p6",
     "whatsapp": "https://wa.me/573179123456",
     "QueOfrezco": "servicios",
+    "QueHago" : "Peluqueria",
     "MisProductos": [
       {
         "id": 1,
@@ -224,9 +229,10 @@
     "imagen": "https://media.traveler.es/photos/613760adcb06ad0f20e11980/master/w_1600%2Cc_limit/202931.jpg",
     "cedula": 6,
     "descripcion": "Nutricionista certificado especializado en dietas personalizadas.",
-    "calendario": "https://calendar.google.com/calendar/appointments/schedules/AcZssZ0Q91WO2kgUgn76d07xI0kki3Fudc8300zgjWq-4jor_tWScCKT2Int8_8jpXqTX9eh_mhrMLSi?gv=true",
+    "calendario": "https://calendar.app.google/DYMQ8NSicfh3sC6p6",
     "whatsapp": "https://wa.me/573172345678",
     "QueOfrezco": "servicios",
+    "QueHago" : "Nutricionista",
     "MisProductos": [
       {
         "id": 1,
@@ -260,6 +266,794 @@
     "Plantillas": {
       "plantillaEmpresa": 2,
       "plantillaServicios": 2,
+      "plantillaPersonal": 2
+    }
+  },
+  {
+    "nombre": "Carlos Martinez",
+    "imagen": "https://media.traveler.es/photos/613760adcb06ad0f20e11980/master/w_1600%2Cc_limit/202931.jpg",
+    "cedula": 7,
+    "descripcion": "Entrenador personal certificado con más de 10 años de experiencia en el diseño de planes de ejercicio personalizados y en la optimización del rendimiento físico.",
+    "calendario": "https://calendar.app.google/DYMQ8NSicfh3sC6p6",
+    "whatsapp": "https://wa.me/573172345678",
+    "QueOfrezco": "servicios",
+    "QueHago": "Entrenador Personal",
+    "MisProductos": [
+      {
+        "id": 1,
+        "nombreProducto": "Evaluación Física Inicial",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "25 USD",
+        "descripcionProducto": "Evaluación de tu estado físico y condición general para crear un plan de entrenamiento a tu medida."
+      },
+      {
+        "id": 2,
+        "nombreProducto": "Plan de Entrenamiento Personalizado",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "60 USD",
+        "descripcionProducto": "Entrenamiento diseñado específicamente para alcanzar tus objetivos de salud y rendimiento."
+      },
+      {
+        "id": 3,
+        "nombreProducto": "Asesoría Nutricional",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "30 USD",
+        "descripcionProducto": "Consejos y guía nutricional para complementar tu plan de ejercicios."
+      }
+    ],
+    "MiEmpresa": {
+      "nombre": "Entrena Bien",
+      "nit": 987654322,
+      "imagenEmpresa": "https://media.istockphoto.com/id/1184788463/vector/triangle-colorful-vector-design.jpg?s=612x612&w=0&k=20&c=urifLmK_XqupCKRGj-W2pb0-fwB4Mgu8H8BHGbE8g48=",
+      "descripcionEmpresa": "Servicios de entrenamiento personalizado y bienestar físico.",
+      "eslogan": "Empieza a cambiar tu vida hoy."
+    },
+    "Plantillas": {
+      "plantillaEmpresa": 1,
+      "plantillaServicios": 2,
+      "plantillaPersonal": 1
+    }
+  },
+  {
+    "nombre": "María Gomez",
+    "imagen": "https://media.traveler.es/photos/613760adcb06ad0f20e11980/master/w_1600%2Cc_limit/202931.jpg",
+    "cedula": 8,
+    "descripcion": "Especialista en terapia psicológica cognitivo-conductual con enfoque en el desarrollo personal y bienestar emocional.",
+    "calendario": "https://calendar.app.google/DYMQ8NSicfh3sC6p6",
+    "whatsapp": "https://wa.me/573172345678",
+    "QueOfrezco": "servicios",
+    "QueHago": "Psicóloga",
+    "MisProductos": [
+      {
+        "id": 1,
+        "nombreProducto": "Consulta Individual",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "35 USD",
+        "descripcionProducto": "Sesión individual de terapia para trabajar en temas emocionales específicos."
+      },
+      {
+        "id": 2,
+        "nombreProducto": "Terapia de Pareja",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "55 USD",
+        "descripcionProducto": "Sesión de terapia diseñada para mejorar la comunicación y resolver conflictos en pareja."
+      },
+      {
+        "id": 3,
+        "nombreProducto": "Evaluación Psicológica",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "40 USD",
+        "descripcionProducto": "Evaluación completa para entender el estado emocional y psicológico."
+      }
+    ],
+    "MiEmpresa": {
+      "nombre": "Bienestar Mental",
+      "nit": 987654323,
+      "imagenEmpresa": "https://img.freepik.com/vector-gratis/vector-degradado-logotipo-colorido-pajaro_343694-1365.jpg",
+      "descripcionEmpresa": "Clínica especializada en el bienestar y salud mental.",
+      "eslogan": "Cuidamos de tu mente."
+    },
+    "Plantillas": {
+      "plantillaEmpresa": 2,
+      "plantillaServicios": 1,
+      "plantillaPersonal": 2
+    }
+  },
+  {
+    "nombre": "Ana Salazar",
+    "imagen": "https://media.traveler.es/photos/613760adcb06ad0f20e11980/master/w_1600%2Cc_limit/202931.jpg",
+    "cedula": 9,
+    "descripcion": "Chef profesional y asesora gastronómica con experiencia en cocina saludable y platos internacionales.",
+    "calendario": "https://calendar.app.google/DYMQ8NSicfh3sC6p6",
+    "whatsapp": "https://wa.me/573172345678",
+    "QueOfrezco": "productos",
+    "QueHago": "Chef",
+    "MisProductos": [
+      {
+        "id": 1,
+        "nombreProducto": "Menú de Cocina Internacional",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "50 USD",
+        "descripcionProducto": "Menú completo de platos internacionales adaptado a tus preferencias."
+      },
+      {
+        "id": 2,
+        "nombreProducto": "Curso de Cocina Saludable",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "40 USD",
+        "descripcionProducto": "Curso práctico para aprender técnicas de cocina saludable y balanceada."
+      },
+      {
+        "id": 3,
+        "nombreProducto": "Kit de Especias",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "20 USD",
+        "descripcionProducto": "Kit de especias frescas para sazonar tus platos y darles un toque especial."
+      }
+    ],
+    "MiEmpresa": {
+      "nombre": "Cocina con Sabor",
+      "nit": 987654324,
+      "imagenEmpresa": "https://media.istockphoto.com/id/1184788463/vector/triangle-colorful-vector-design.jpg?s=612x612&w=0&k=20&c=urifLmK_XqupCKRGj-W2pb0-fwB4Mgu8H8BHGbE8g48=",
+      "descripcionEmpresa": "Asesoría gastronómica y cursos de cocina.",
+      "eslogan": "Sabor y salud en cada plato."
+    },
+    "Plantillas": {
+      "plantillaEmpresa": 1,
+      "plantillaServicios": 1,
+      "plantillaPersonal": 2
+    }
+  },
+  {
+    "nombre": "Laura Sánchez",
+    "imagen": "https://media.traveler.es/photos/613760adcb06ad0f20e11980/master/w_1600%2Cc_limit/202931.jpg",
+    "cedula": 10,
+    "descripcion": "Asesora financiera experta en planificación de inversiones y gestión de presupuestos personales.",
+    "calendario": "https://calendar.app.google/DYMQ8NSicfh3sC6p6",
+    "whatsapp": "https://wa.me/573172345678",
+    "QueOfrezco": "servicios",
+    "QueHago": "Asesora Financiera",
+    "MisProductos": [
+      {
+        "id": 1,
+        "nombreProducto": "Evaluación Financiera Personal",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "40 USD",
+        "descripcionProducto": "Análisis completo de tu situación financiera y sugerencias personalizadas."
+      },
+      {
+        "id": 2,
+        "nombreProducto": "Planificación de Inversiones",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "70 USD",
+        "descripcionProducto": "Creación de un plan de inversión adaptado a tus metas financieras."
+      },
+      {
+        "id": 3,
+        "nombreProducto": "Asesoría en Gestión de Deudas",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "35 USD",
+        "descripcionProducto": "Estrategias para reducir tus deudas y mejorar tu salud financiera."
+      }
+    ],
+    "MiEmpresa": {
+      "nombre": "Finanzas Personales Pro",
+      "nit": 987654325,
+      "imagenEmpresa": "https://img.freepik.com/vector-gratis/vector-degradado-logotipo-colorido-pajaro_343694-1365.jpg",
+      "descripcionEmpresa": "Servicios de asesoría financiera personalizada.",
+      "eslogan": "Tu guía hacia la libertad financiera."
+    },
+    "Plantillas": {
+      "plantillaEmpresa": 1,
+      "plantillaServicios": 2,
+      "plantillaPersonal": 1
+    }
+  },
+  {
+    "nombre": "Pedro Ramírez",
+    "imagen": "https://media.traveler.es/photos/613760adcb06ad0f20e11980/master/w_1600%2Cc_limit/202931.jpg",
+    "cedula": 11,
+    "descripcion": "Instructor de yoga con especialización en técnicas de respiración y mindfulness.",
+    "calendario": "https://calendar.app.google/DYMQ8NSicfh3sC6p6",
+    "whatsapp": "https://wa.me/573172345678",
+    "QueOfrezco": "servicios",
+    "QueHago": "Instructor de Yoga",
+    "MisProductos": [
+      {
+        "id": 1,
+        "nombreProducto": "Clase de Yoga para Principiantes",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "20 USD",
+        "descripcionProducto": "Clase introductoria al yoga con enfoque en posturas y técnicas de respiración."
+      },
+      {
+        "id": 2,
+        "nombreProducto": "Sesión de Mindfulness",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "25 USD",
+        "descripcionProducto": "Sesión de mindfulness para reducir el estrés y mejorar la concentración."
+      },
+      {
+        "id": 3,
+        "nombreProducto": "Clase de Yoga Avanzado",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "30 USD",
+        "descripcionProducto": "Clase avanzada de yoga para perfeccionar posturas y técnicas."
+      }
+    ],
+    "MiEmpresa": {
+      "nombre": "Equilibrio Yoga",
+      "nit": 987654326,
+      "imagenEmpresa": "https://img.freepik.com/vector-gratis/vector-degradado-logotipo-colorido-pajaro_343694-1365.jpg",
+      "descripcionEmpresa": "Clases de yoga y bienestar.",
+      "eslogan": "Encuentra tu equilibrio interior."
+    },
+    "Plantillas": {
+      "plantillaEmpresa": 2,
+      "plantillaServicios": 1,
+      "plantillaPersonal": 1
+    }
+  },
+  {
+    "nombre": "Sofía López",
+    "imagen": "https://media.traveler.es/photos/613760adcb06ad0f20e11980/master/w_1600%2Cc_limit/202931.jpg",
+    "cedula": 12,
+    "descripcion": "Diseñadora de modas especializada en ropa artesanal y accesorios únicos.",
+    "calendario": "https://calendar.app.google/DYMQ8NSicfh3sC6p6",
+    "whatsapp": "https://wa.me/573172345678",
+    "QueOfrezco": "productos",
+    "QueHago": "Diseñadora de Modas",
+    "MisProductos": [
+      {
+        "id": 1,
+        "nombreProducto": "Blusa Artesanal Bordada",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "45 USD",
+        "descripcionProducto": "Blusa única hecha a mano con bordados tradicionales."
+      },
+      {
+        "id": 2,
+        "nombreProducto": "Bolso de Cuero Artesanal",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "60 USD",
+        "descripcionProducto": "Bolso artesanal elaborado con cuero y diseño único."
+      },
+      {
+        "id": 3,
+        "nombreProducto": "Falda de Estampado Étnico",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "35 USD",
+        "descripcionProducto": "Falda de tela suave con un diseño estampado de inspiración étnica."
+      }
+    ],
+    "MiEmpresa": {
+      "nombre": "Estilo Artesanal",
+      "nit": 987654327,
+      "imagenEmpresa": "https://media.istockphoto.com/id/1184788463/vector/triangle-colorful-vector-design.jpg?s=612x612&w=0&k=20&c=urifLmK_XqupCKRGj-W2pb0-fwB4Mgu8H8BHGbE8g48=",
+      "descripcionEmpresa": "Ropa y accesorios artesanales únicos.",
+      "eslogan": "Moda con personalidad y estilo único."
+    },
+    "Plantillas": {
+      "plantillaEmpresa": 1,
+      "plantillaServicios": 2,
+      "plantillaPersonal": 1
+    }
+  },
+  {
+    "nombre": "Luis Mendoza",
+    "imagen": "https://media.traveler.es/photos/613760adcb06ad0f20e11980/master/w_1600%2Cc_limit/202931.jpg",
+    "cedula": 13,
+    "descripcion": "Consultor en marketing digital especializado en redes sociales y branding personal.",
+    "calendario": "https://calendar.app.google/DYMQ8NSicfh3sC6p6",
+    "whatsapp": "https://wa.me/573172345678",
+    "QueOfrezco": "servicios",
+    "QueHago": "Consultor de Marketing Digital",
+    "MisProductos": [
+      {
+        "id": 1,
+        "nombreProducto": "Auditoría de Redes Sociales",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "50 USD",
+        "descripcionProducto": "Revisión detallada de tus redes sociales y estrategias de mejora."
+      },
+      {
+        "id": 2,
+        "nombreProducto": "Plan de Contenidos para Branding Personal",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "100 USD",
+        "descripcionProducto": "Creación de un plan de contenidos adaptado a tus objetivos personales y de marca."
+      },
+      {
+        "id": 3,
+        "nombreProducto": "Campaña de Publicidad en Redes Sociales",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "150 USD",
+        "descripcionProducto": "Gestión completa de campañas en redes sociales para alcanzar tus objetivos."
+      }
+    ],
+    "MiEmpresa": {
+      "nombre": "Branding Creativo",
+      "nit": 987654328,
+      "imagenEmpresa": "https://media.istockphoto.com/id/1184788463/vector/triangle-colorful-vector-design.jpg?s=612x612&w=0&k=20&c=urifLmK_XqupCKRGj-W2pb0-fwB4Mgu8H8BHGbE8g48=",
+      "descripcionEmpresa": "Consultoría en marketing digital y branding para empresas y personas.",
+      "eslogan": "Creando tu presencia en el mundo digital."
+    },
+    "Plantillas": {
+      "plantillaEmpresa": 2,
+      "plantillaServicios": 1,
+      "plantillaPersonal": 1
+    }
+  },
+  {
+    "nombre": "Carolina Álvarez",
+    "imagen": "https://media.traveler.es/photos/613760adcb06ad0f20e11980/master/w_1600%2Cc_limit/202931.jpg",
+    "cedula": 14,
+    "descripcion": "Artista plástica enfocada en la creación de retratos personalizados y arte decorativo.",
+    "calendario": "https://calendar.app.google/DYMQ8NSicfh3sC6p6",
+    "whatsapp": "https://wa.me/573172345678",
+    "QueOfrezco": "productos",
+    "QueHago": "Artista Plástica",
+    "MisProductos": [
+      {
+        "id": 1,
+        "nombreProducto": "Retrato Personalizado",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "80 USD",
+        "descripcionProducto": "Retrato personalizado en técnica mixta según tus preferencias."
+      },
+      {
+        "id": 2,
+        "nombreProducto": "Obra de Arte Abstracto",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "120 USD",
+        "descripcionProducto": "Pintura abstracta para decorar tus espacios con un toque único."
+      },
+      {
+        "id": 3,
+        "nombreProducto": "Cuadro Decorativo en Acrílico",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "100 USD",
+        "descripcionProducto": "Obra en acrílico inspirada en la naturaleza y los colores vibrantes."
+      }
+    ],
+    "MiEmpresa": {
+      "nombre": "Arte en Color",
+      "nit": 987654329,
+      "imagenEmpresa": "https://media.istockphoto.com/id/1184788463/vector/triangle-colorful-vector-design.jpg?s=612x612&w=0&k=20&c=urifLmK_XqupCKRGj-W2pb0-fwB4Mgu8H8BHGbE8g48=",
+      "descripcionEmpresa": "Creaciones artísticas personalizadas y decorativas.",
+      "eslogan": "El arte que da vida a tus espacios."
+    },
+    "Plantillas": {
+      "plantillaEmpresa": 1,
+      "plantillaServicios": 2,
+      "plantillaPersonal": 1
+    }
+  },
+  {
+    "nombre": "Andrés Gutiérrez",
+    "imagen": "https://media.traveler.es/photos/613760adcb06ad0f20e11980/master/w_1600%2Cc_limit/202931.jpg",
+    "cedula": 15,
+    "descripcion": "Asesor en fitness y nutrición, ayudando a mejorar el estilo de vida de sus clientes.",
+    "calendario": "https://calendar.app.google/DYMQ8NSicfh3sC6p6",
+    "whatsapp": "https://wa.me/573172345678",
+    "QueOfrezco": "servicios",
+    "QueHago": "Asesor en Fitness y Nutrición",
+    "MisProductos": [
+      {
+        "id": 1,
+        "nombreProducto": "Plan de Entrenamiento Personalizado",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "40 USD",
+        "descripcionProducto": "Entrenamiento diseñado según tus metas y condiciones físicas."
+      },
+      {
+        "id": 2,
+        "nombreProducto": "Plan Nutricional",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "30 USD",
+        "descripcionProducto": "Plan alimenticio balanceado y adaptado a tus necesidades."
+      },
+      {
+        "id": 3,
+        "nombreProducto": "Asesoría en Hábitos Saludables",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "35 USD",
+        "descripcionProducto": "Orientación para incorporar hábitos saludables en tu vida diaria."
+      }
+    ],
+    "MiEmpresa": {
+      "nombre": "Vive Saludable",
+      "nit": 987654330,
+      "imagenEmpresa": "https://img.freepik.com/vector-gratis/vector-degradado-logotipo-colorido-pajaro_343694-1365.jpg",
+      "descripcionEmpresa": "Servicios de fitness y nutrición personalizados.",
+      "eslogan": "Transforma tu vida con bienestar."
+    },
+    "Plantillas": {
+      "plantillaEmpresa": 2,
+      "plantillaServicios": 1,
+      "plantillaPersonal": 1
+    }
+  },
+  {
+    "nombre": "Daniela López",
+    "imagen": "https://media.traveler.es/photos/613760adcb06ad0f20e11980/master/w_1600%2Cc_limit/202931.jpg",
+    "cedula": 16,
+    "descripcion": "Diseñadora de interiores especializada en espacios residenciales y oficinas modernas.",
+    "calendario": "https://calendar.google.com/calendar/appointments/schedules/AcZssZ0Q91WO2kgUgn76d07xI0kki3Fudc8300zgjWq-4jor_tWScCKT2Int8_8jpXqTX9eh_mhrMLSi?gv=true",
+    "whatsapp": "https://wa.me/573172345678",
+    "QueOfrezco": "servicios",
+    "QueHago": "Diseñadora de Interiores",
+    "MisProductos": [
+      {
+        "id": 1,
+        "nombreProducto": "Consultoría de Espacios Interiores",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "100 USD",
+        "descripcionProducto": "Asesoría personalizada para renovar tus espacios de forma profesional."
+      },
+      {
+        "id": 2,
+        "nombreProducto": "Diseño Completo de Interiores",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "300 USD",
+        "descripcionProducto": "Proyecto de diseño de interiores, desde la planificación hasta el montaje final."
+      },
+      {
+        "id": 3,
+        "nombreProducto": "Plan de Decoración Express",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "50 USD",
+        "descripcionProducto": "Ideas rápidas y efectivas para darle un nuevo aire a cualquier espacio."
+      }
+    ],
+    "MiEmpresa": {
+      "nombre": "Ambiente Creativo",
+      "nit": 987654331,
+      "imagenEmpresa": "https://media.istockphoto.com/id/1184788463/vector/triangle-colorful-vector-design.jpg?s=612x612&w=0&k=20&c=urifLmK_XqupCKRGj-W2pb0-fwB4Mgu8H8BHGbE8g48=",
+      "descripcionEmpresa": "Empresa dedicada al diseño y consultoría de espacios interiores.",
+      "eslogan": "Transformamos tus espacios, mejoramos tu vida."
+    },
+    "Plantillas": {
+      "plantillaEmpresa": 2,
+      "plantillaServicios": 1,
+      "plantillaPersonal": 1
+    }
+  },
+  {
+    "nombre": "Juan García",
+    "imagen": "https://media.traveler.es/photos/613760adcb06ad0f20e11980/master/w_1600%2Cc_limit/202931.jpg",
+    "cedula": 17,
+    "descripcion": "Técnico especializado en reparación y mantenimiento de equipos electrónicos.",
+    "calendario": "https://calendar.app.google/DYMQ8NSicfh3sC6p6",
+    "whatsapp": "https://wa.me/573172345678",
+    "QueOfrezco": "servicios",
+    "QueHago": "Técnico en Reparación Electrónica",
+    "MisProductos": [
+      {
+        "id": 1,
+        "nombreProducto": "Reparación de Computadoras",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "50 USD",
+        "descripcionProducto": "Reparación y mantenimiento de equipos de cómputo de cualquier marca."
+      },
+      {
+        "id": 2,
+        "nombreProducto": "Mantenimiento de Electrodomésticos",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "30 USD",
+        "descripcionProducto": "Servicio de mantenimiento preventivo para alargar la vida de tus electrodomésticos."
+      },
+      {
+        "id": 3,
+        "nombreProducto": "Servicio de Reparación Express",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "70 USD",
+        "descripcionProducto": "Reparación de urgencia para equipos esenciales."
+      }
+    ],
+    "MiEmpresa": {
+      "nombre": "Soluciones Electrónicas",
+      "nit": 987654332,
+      "imagenEmpresa": "https://media.istockphoto.com/id/1184788463/vector/triangle-colorful-vector-design.jpg?s=612x612&w=0&k=20&c=urifLmK_XqupCKRGj-W2pb0-fwB4Mgu8H8BHGbE8g48=",
+      "descripcionEmpresa": "Reparación y mantenimiento de equipos electrónicos y electrodomésticos.",
+      "eslogan": "Tecnología al servicio de tu hogar y oficina."
+    },
+    "Plantillas": {
+      "plantillaEmpresa": 1,
+      "plantillaServicios": 2,
+      "plantillaPersonal": 1
+    }
+  },
+  {
+    "nombre": "Sofía Ríos",
+    "imagen": "https://media.traveler.es/photos/613760adcb06ad0f20e11980/master/w_1600%2Cc_limit/202931.jpg",
+    "cedula": 18,
+    "descripcion": "Chef personal y consultora en nutrición con servicios de alimentación saludable.",
+    "calendario": "https://calendar.app.google/DYMQ8NSicfh3sC6p6",
+    "whatsapp": "https://wa.me/573172345678",
+    "QueOfrezco": "servicios",
+    "QueHago": "Chef Personal",
+    "MisProductos": [
+      {
+        "id": 1,
+        "nombreProducto": "Menú Semanal Saludable",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "120 USD",
+        "descripcionProducto": "Plan de alimentación saludable con recetas balanceadas para toda la semana."
+      },
+      {
+        "id": 2,
+        "nombreProducto": "Taller de Cocina Saludable",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "80 USD",
+        "descripcionProducto": "Taller de cocina para aprender técnicas y recetas saludables."
+      },
+      {
+        "id": 3,
+        "nombreProducto": "Consultoría Nutricional",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "50 USD",
+        "descripcionProducto": "Asesoría personalizada para mejorar tus hábitos alimenticios."
+      }
+    ],
+    "MiEmpresa": {
+      "nombre": "Sabor y Salud",
+      "nit": 987654333,
+      "imagenEmpresa": "https://media.istockphoto.com/id/1184788463/vector/triangle-colorful-vector-design.jpg?s=612x612&w=0&k=20&c=urifLmK_XqupCKRGj-W2pb0-fwB4Mgu8H8BHGbE8g48=",
+      "descripcionEmpresa": "Servicios de chef personal y consultoría en alimentación saludable.",
+      "eslogan": "Sabores que nutren."
+    },
+    "Plantillas": {
+      "plantillaEmpresa": 2,
+      "plantillaServicios": 1,
+      "plantillaPersonal": 1
+    }
+  },  {
+    "nombre": "Mariana Pérez",
+    "imagen": "https://media.traveler.es/photos/613760adcb06ad0f20e11980/master/w_1600%2Cc_limit/202931.jpg",
+    "cedula": 19,
+    "descripcion": "Soy una terapeuta holística con años de experiencia en prácticas como el reiki y la meditación guiada. Mi enfoque está en ayudar a mis clientes a encontrar paz interior, sanación emocional y equilibrio en sus vidas a través de técnicas personalizadas que responden a sus necesidades únicas.",
+    "calendario": "https://calendar.app.google/DYMQ8NSicfh3sC6p6",
+    "whatsapp": "https://wa.me/573172345678",
+    "QueOfrezco": "servicios",
+    "QueHago": "Terapeuta Holística",
+    "MisProductos": [
+      {
+        "id": 1,
+        "nombreProducto": "Sesión de Reiki",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "40 USD",
+        "descripcionProducto": "Terapia de reiki para equilibrar la energía y reducir el estrés, mejorando el bienestar emocional."
+      },
+      {
+        "id": 2,
+        "nombreProducto": "Meditación Guiada Personalizada",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "30 USD",
+        "descripcionProducto": "Meditación guiada que se adapta a tus objetivos personales y emocionales para encontrar paz y claridad."
+      },
+      {
+        "id": 3,
+        "nombreProducto": "Terapia de Sonido",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "50 USD",
+        "descripcionProducto": "Terapia de sonido con instrumentos vibracionales para promover la relajación y la sanación integral."
+      }
+    ],
+    "MiEmpresa": {
+      "nombre": "Equilibrio Vital",
+      "nit": 987654334,
+      "imagenEmpresa": "https://media.istockphoto.com/id/1184788463/vector/triangle-colorful-vector-design.jpg?s=612x612&w=0&k=20&c=urifLmK_XqupCKRGj-W2pb0-fwB4Mgu8H8BHGbE8g48=",
+      "descripcionEmpresa": "Centro de terapias holísticas especializado en el bienestar integral y la sanación emocional.",
+      "eslogan": "Sanación para el cuerpo y el alma."
+    },
+    "Plantillas": {
+      "plantillaEmpresa": 1,
+      "plantillaServicios": 2,
+      "plantillaPersonal": 1
+    }
+  },
+  {
+    "nombre": "Carlos Rojas",
+    "imagen": "https://media.traveler.es/photos/613760adcb06ad0f20e11980/master/w_1600%2Cc_limit/202931.jpg",
+    "cedula": 20,
+    "descripcion": "Asesor financiero con un enfoque práctico y personalizado para ayudarte a alcanzar tus metas financieras. Te guiaré en la creación de estrategias de ahorro e inversión para garantizar que puedas construir un futuro económico sólido y estable.",
+    "calendario": "https://calendar.app.google/DYMQ8NSicfh3sC6p6",
+    "whatsapp": "https://wa.me/573172345678",
+    "QueOfrezco": "servicios",
+    "QueHago": "Asesor Financiero",
+    "MisProductos": [
+      {
+        "id": 1,
+        "nombreProducto": "Consultoría Financiera Personal",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "100 USD",
+        "descripcionProducto": "Estrategias para mejorar tu administración financiera, adaptadas a tus objetivos de ahorro y estabilidad económica."
+      },
+      {
+        "id": 2,
+        "nombreProducto": "Estrategia de Inversiones",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "150 USD",
+        "descripcionProducto": "Asesoría para identificar oportunidades de inversión, orientadas a optimizar tu rentabilidad y gestionar el riesgo."
+      },
+      {
+        "id": 3,
+        "nombreProducto": "Educación Financiera",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "80 USD",
+        "descripcionProducto": "Capacitación para aprender y aplicar los principios básicos de finanzas en tu vida cotidiana."
+      }
+    ],
+    "MiEmpresa": {
+      "nombre": "Finanzas con Futuro",
+      "nit": 987654335,
+      "imagenEmpresa": "https://img.freepik.com/vector-gratis/vector-degradado-logotipo-colorido-pajaro_343694-1365.jpg",
+      "descripcionEmpresa": "Consultoría financiera que ayuda a personas a construir una base económica sólida mediante educación y asesoría.",
+      "eslogan": "Hacemos crecer tu futuro."
+    },
+    "Plantillas": {
+      "plantillaEmpresa": 2,
+      "plantillaServicios": 1,
+      "plantillaPersonal": 2
+    }
+  },
+  {
+    "nombre": "Andrea Gómez",
+    "imagen": "https://media.traveler.es/photos/613760adcb06ad0f20e11980/master/w_1600%2Cc_limit/202931.jpg",
+    "cedula": 21,
+    "descripcion": "Entrenadora personal apasionada por el acondicionamiento físico y la nutrición deportiva, con programas adaptados a los objetivos y capacidades de cada persona. Mi misión es ayudarte a mejorar tu salud física, ganar energía y aumentar tu confianza.",
+    "calendario": "https://calendar.app.google/DYMQ8NSicfh3sC6p6",
+    "whatsapp": "https://wa.me/573172345678",
+    "QueOfrezco": "servicios",
+    "QueHago": "Entrenadora Personal",
+    "MisProductos": [
+      {
+        "id": 1,
+        "nombreProducto": "Plan de Entrenamiento Personalizado",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "80 USD",
+        "descripcionProducto": "Programa de entrenamiento físico adaptado a tus necesidades, con metas de fortalecimiento y resistencia."
+      },
+      {
+        "id": 2,
+        "nombreProducto": "Asesoría en Nutrición Deportiva",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "50 USD",
+        "descripcionProducto": "Guía nutricional diseñada para optimizar tu rendimiento y salud en el contexto deportivo."
+      },
+      {
+        "id": 3,
+        "nombreProducto": "Entrenamiento en Grupo",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "60 USD",
+        "descripcionProducto": "Sesiones de entrenamiento grupales para mejorar la motivación y alcanzar resultados de manera conjunta."
+      }
+    ],
+    "MiEmpresa": {
+      "nombre": "Fit con Andrea",
+      "nit": 987654336,
+      "imagenEmpresa": "https://img.freepik.com/vector-gratis/vector-degradado-logotipo-colorido-pajaro_343694-1365.jpg",
+      "descripcionEmpresa": "Centro de entrenamiento físico que ofrece programas personalizados de salud y bienestar.",
+      "eslogan": "Transforma tu vida a través del fitness."
+    },
+    "Plantillas": {
+      "plantillaEmpresa": 2,
+      "plantillaServicios": 1,
+      "plantillaPersonal": 1
+    }
+  },
+  {
+    "nombre": "Carlos Pérez",
+    "imagen": "https://media.traveler.es/photos/613760adcb06ad0f20e11980/master/w_1600%2Cc_limit/202931.jpg",
+    "cedula": 22,
+    "descripcion": "Psicólogo clínico especializado en terapia cognitivo-conductual. Mi enfoque se basa en guiar a mis pacientes hacia una comprensión más profunda de sus emociones, mejorando su bienestar mental y su calidad de vida.",
+    "calendario": "https://calendar.app.google/DYMQ8NSicfh3sC6p6",
+    "whatsapp": "https://wa.me/573172345678",
+    "QueOfrezco": "servicios",
+    "QueHago": "Psicólogo",
+    "MisProductos": [
+      {
+        "id": 1,
+        "nombreProducto": "Sesión de Terapia Individual",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "40 USD",
+        "descripcionProducto": "Sesión de terapia cognitivo-conductual para trabajar en la gestión emocional y resolución de conflictos."
+      },
+      {
+        "id": 2,
+        "nombreProducto": "Taller de Autoconocimiento",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "70 USD",
+        "descripcionProducto": "Taller grupal para profundizar en la identificación de emociones y habilidades personales."
+      }
+    ],
+    "MiEmpresa": {
+      "nombre": "Bienestar Mental",
+      "nit": 987654337,
+      "imagenEmpresa": "https://media.istockphoto.com/id/1184788463/vector/triangle-colorful-vector-design.jpg?s=612x612&w=0&k=20&c=urifLmK_XqupCKRGj-W2pb0-fwB4Mgu8H8BHGbE8g48=",
+      "descripcionEmpresa": "Centro especializado en la salud mental y el desarrollo personal.",
+      "eslogan": "Transforma tu mente, mejora tu vida."
+    },
+    "Plantillas": {
+      "plantillaEmpresa": 1,
+      "plantillaServicios": 2,
+      "plantillaPersonal": 2
+    }
+  },
+  {
+    "nombre": "Laura Valencia",
+    "imagen": "https://media.traveler.es/photos/613760adcb06ad0f20e11980/master/w_1600%2Cc_limit/202931.jpg",
+    "cedula": 23,
+    "descripcion": "Diseñadora de interiores con experiencia en crear espacios funcionales y estéticamente agradables. Ayudo a transformar ambientes de acuerdo con el estilo y personalidad de cada cliente.",
+    "calendario": "https://calendar.app.google/DYMQ8NSicfh3sC6p6",
+    "whatsapp": "https://wa.me/573172345678",
+    "QueOfrezco": "productos",
+    "QueHago": "Diseñadora de Interiores",
+    "MisProductos": [
+      {
+        "id": 1,
+        "nombreProducto": "Proyecto de Diseño Personalizado",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "150 USD",
+        "descripcionProducto": "Diseño personalizado de interiores adaptado a las necesidades y gustos del cliente."
+      },
+      {
+        "id": 2,
+        "nombreProducto": "Asesoría en Decoración",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "60 USD",
+        "descripcionProducto": "Consulta para asesoría en decoración y estilo de interiores."
+      }
+    ],
+    "MiEmpresa": {
+      "nombre": "Espacios y Estilo",
+      "nit": 987654338,
+      "imagenEmpresa": "https://img.freepik.com/vector-gratis/vector-degradado-logotipo-colorido-pajaro_343694-1365.jpg",
+      "descripcionEmpresa": "Estudio de diseño de interiores enfocado en crear espacios únicos y personalizados.",
+      "eslogan": "Tu estilo, nuestro diseño."
+    },
+    "Plantillas": {
+      "plantillaEmpresa": 2,
+      "plantillaServicios": 2,
+      "plantillaPersonal": 1
+    }
+  },
+  {
+    "nombre": "Mónica Díaz",
+    "imagen": "https://media.traveler.es/photos/613760adcb06ad0f20e11980/master/w_1600%2Cc_limit/202931.jpg",
+    "cedula": 24,
+    "descripcion": "Instructora de yoga y bienestar integral. Guío a las personas en el camino hacia el equilibrio y la paz interior a través de prácticas de yoga, meditación y ejercicios de respiración.",
+    "calendario": "https://calendar.app.google/DYMQ8NSicfh3sC6p6",
+    "whatsapp": "https://wa.me/573172345678",
+    "QueOfrezco": "servicios",
+    "QueHago": "Instructora de Yoga",
+    "MisProductos": [
+      {
+        "id": 1,
+        "nombreProducto": "Clases de Yoga Personalizadas",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "25 USD",
+        "descripcionProducto": "Sesiones de yoga personalizadas para alcanzar un equilibrio físico y mental."
+      },
+      {
+        "id": 2,
+        "nombreProducto": "Taller de Meditación y Respiración",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "35 USD",
+        "descripcionProducto": "Taller especializado en técnicas de meditación y respiración para mejorar el bienestar."
+      }
+    ],
+    "MiEmpresa": {
+      "nombre": "Yoga y Bienestar",
+      "nit": 987654339,
+      "imagenEmpresa": "https://media.istockphoto.com/id/1184788463/vector/triangle-colorful-vector-design.jpg?s=612x612&w=0&k=20&c=urifLmK_XqupCKRGj-W2pb0-fwB4Mgu8H8BHGbE8g48=",
+      "descripcionEmpresa": "Centro de yoga y meditación dedicado al bienestar integral y equilibrio mental.",
+      "eslogan": "Encuentra tu paz interior."
+    },
+    "Plantillas": {
+      "plantillaEmpresa": 1,
+      "plantillaServicios": 1,
       "plantillaPersonal": 2
     }
   }

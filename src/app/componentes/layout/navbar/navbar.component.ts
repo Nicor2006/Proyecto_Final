@@ -50,6 +50,11 @@ export class NavbarComponent implements OnInit {
       );
     } 
   }
+
+  capitalizeFirstLetter(name: string): string {
+    return name.charAt(0).toUpperCase() + name.slice(1);
+  }
+
   navegarASecion(fragment: string): void {
     // Obtener la ruta actual y navegar a ella con el nuevo fragmento
     const currentUrl = this.router.url.split('#')[0]; // Obtener la parte base de la URL
@@ -58,4 +63,5 @@ export class NavbarComponent implements OnInit {
   isHomePage(): boolean {
     return this.router.url === '/home';
   }
+
 }

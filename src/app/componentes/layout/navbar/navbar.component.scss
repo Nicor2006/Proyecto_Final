@@ -29,11 +29,7 @@ mat-toolbar span {
 
 /* Responsividad para pantallas pequeñas */
 @media (max-width: 768px) {
-  .example-button-row {
-    flex-direction: column; /* Alinea los botones en columna */
-    align-items: center;
-    gap: 12px; /* Espacio entre los botones en pantallas pequeñas */
-  }
+
 
   mat-toolbar {
     flex-direction: column; /* Asegúrate de que esto esté aquí para pantallas pequeñas */

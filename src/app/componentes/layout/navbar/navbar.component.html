@@ -9,7 +9,7 @@
     <section style="margin-left: auto;"> <!-- Agregar este estilo para empujar el contenido a la derecha -->
       <div class="example-button-row">
         <button mat-raised-button (click)="navegarASecion('empresa')">Presentación Empresa</button>
-        <button mat-raised-button (click)="navegarASecion('servicios')">{{emprendedor.QueOfrezco}}</button>
+        <button mat-raised-button (click)="navegarASecion('servicios')">{{capitalizeFirstLetter(emprendedor.QueOfrezco)}}</button>
         <button mat-raised-button (click)="navegarASecion('Personal')">Presentación Personal</button>
         <a mat-raised-button [href]="emprendedor.whatsapp" target="_blank">Mira mi whatsapp</a>
       </div>

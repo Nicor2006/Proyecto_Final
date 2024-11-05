@@ -46,7 +46,7 @@ export class HomePageComponent implements OnInit, OnDestroy {
     // Suscribirse a los cambios en la consulta de búsqueda
     this.subscription.add(
       this.searchService.searchQuery$.subscribe((query: string) => {
-        this.filterEmprendedoresByQueOfrezco(query); // Filtra emprendedores cada vez que cambia la consulta
+        this.filterEmprendedoresByQueHago(query); // Filtra emprendedores cada vez que cambia la consulta
       })
     );
   }
@@ -56,6 +56,29 @@ export class HomePageComponent implements OnInit, OnDestroy {
     this.emprendedorService.resetCurrentIndex();
     console.log("Componente destruido");
   }
+
+  loadNewEmprendedores() {
+    this.loading = true; // Indicamos que estamos cargando datos
+this.subscription.add(
+  this.emprendedorService.getRandomEmprendedores().subscribe(
+    (data) => {
+      this.emprendedores = [...this.emprendedores, ...data]; // Fusionamos ambos arrays
+      this.filteredEmprendedores = [...this.filteredEmprendedores, ...data];
+      this.loading = false; // Indicamos que hemos terminado de cargar
+      this.cdr.markForCheck(); // Marca el componente para verificación de cambios
+    },
+    (error) => {
+      this.error = 'Error al cargar emprendedores';
+      this.loading = false; // Indicamos que hemos terminado de cargar, aunque hubo un error
+      console.error('Error al cargar emprendedores:', error);
+      this.cdr.markForCheck(); // Marca el componente para verificación de cambios
+    }
+  )
+);
+
+    console.log(this.emprendedores)
+  }
+
 
   private loadEmprendedores(): void {
     this.loading = true; // Indicamos que estamos cargando datos
@@ -77,10 +100,10 @@ export class HomePageComponent implements OnInit, OnDestroy {
     );
   }
 
-  private filterEmprendedoresByQueOfrezco(query: string): void {
+  private filterEmprendedoresByQueHago(query: string): void {
     if (query) {
       this.filteredEmprendedores = this.emprendedores.filter(emprendedor =>
-        emprendedor.QueOfrezco.toLowerCase().includes(query.toLowerCase())
+        emprendedor.QueHago.toLowerCase().includes(query.toLowerCase())
       );
     } else {
       this.filteredEmprendedores = this.emprendedores; // Mostrar todos si no hay filtro

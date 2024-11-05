@@ -16,6 +16,12 @@ img {
   transition: transform 0.3s ease; // Transición en la imagen también
 }
 
+.load-more-button {
+  position: center; // Fija el botón en la pantalla
+  bottom: 4px;
+  left: 50%; // Centro horizontalmente
+  transform: translateX(-50%); // Corrige el desplazamiento del botón
+}
 /* Contenedor de las tarjetas */
 .tarjetas-contenedor {
   display: grid;

@@ -1,6 +1,7 @@
 <div class="tarjetas-contenedor">
 @if (filteredEmprendedores) {
-    @for (item of filteredEmprendedores; track item.cedula) {<mat-card class="example-card" appearance="outlined">
+    @for (item of filteredEmprendedores; track item.cedula) {
+      <mat-card class="example-card" appearance="outlined">
         <mat-card-header style="color: white;">
             <mat-card-title style="color: #0097A7;">{{item.MiEmpresa.nombre}}</mat-card-title>
             <mat-card-subtitle>{{item.nombre}}</mat-card-subtitle>
@@ -17,4 +18,8 @@
       </mat-card>
     }
 } 
+
 </div>
+@if (emprendedores.length % 20 == 0) {
+  <button mat-flat-button class="load-more-button" (click)="loadNewEmprendedores()">Cargar Más</button>
+}
