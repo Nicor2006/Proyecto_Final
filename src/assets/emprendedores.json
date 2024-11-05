@@ -1042,6 +1042,13 @@
         "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
         "precioProducto": "35 USD",
         "descripcionProducto": "Taller especializado en técnicas de meditación y respiración para mejorar el bienestar."
+      },
+      {
+        "id": 3,
+        "nombreProducto": "Taller de Meditación y Respiración",
+        "imagenProducto": "https://media.ambito.com/p/e31ec80599101794839617073dc319e7/adjuntos/239/imagenes/040/456/0040456806/gatos-portadajpg.jpg",
+        "precioProducto": "35 USD",
+        "descripcionProducto": "Taller especializado en técnicas de meditación y respiración para mejorar el bienestar."
       }
     ],
     "MiEmpresa": {

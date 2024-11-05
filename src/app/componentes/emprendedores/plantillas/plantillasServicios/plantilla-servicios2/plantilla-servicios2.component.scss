@@ -63,3 +63,19 @@
     justify-content: center; /* Centra el enlace horizontalmente */
     margin-top: 20px; /* Añadir un margen superior si es necesario */
 }
+.green-button {
+    background-color: #4CAF50; // Color verde
+    color: white; // Color del texto
+    border-radius: 4px; // Bordes redondeados
+  }
+  
+  .green-button:hover {
+    background-color: #45a049; // Color verde más oscuro al pasar el mouse
+  }
+  .link-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  

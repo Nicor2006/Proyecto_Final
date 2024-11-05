@@ -20,6 +20,6 @@
 } 
 
 </div>
-@if (emprendedores.length % 20 == 0) {
+@if (emprendedores.length % 20 == 0 && filteredEmprendedores.length==emprendedores.length) {
   <button mat-flat-button class="load-more-button" (click)="loadNewEmprendedores()">Cargar Más</button>
 }

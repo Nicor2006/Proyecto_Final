@@ -1,5 +1,7 @@
 <div class="container">
 <app-navbar></app-navbar>
+<div  class="content">
 @defer () {<router-outlet />}
+</div>
 @defer (on viewport) {<app-footer></app-footer>} @placeholder {<p>Aca saldra el footer</p>}
 </div>

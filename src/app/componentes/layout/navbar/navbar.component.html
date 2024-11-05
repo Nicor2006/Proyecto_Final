@@ -1,5 +1,5 @@
 @if(!isHomePage()){
-@if (emprendedor) {
+  @if (emprendedor) {
   <mat-toolbar color="accent">
     <button mat-raised-button class="example-icon" aria-label="Example icon-button with menu icon" routerLink='/home'>
       <mat-icon >home</mat-icon>
@@ -15,7 +15,21 @@
       </div>
     </section>
   </mat-toolbar>
-}
+    } @else {
+      <mat-toolbar color="accent">
+        <button mat-raised-button class="example-icon" aria-label="Example icon-button with menu icon" routerLink='/home'>
+          <mat-icon >home</mat-icon>
+        </button>
+        <span class="example-spacer"></span>
+        <section style="margin-left: auto;"> <!-- Agregar este estilo para empujar el contenido a la derecha -->
+          <div class="example-button-row">
+            <button mat-raised-button (click)="navegarASecion('empresa')">Presentación Empresa</button>
+            <button mat-raised-button (click)="navegarASecion('Personal')">Presentación Personal</button>
+            <a mat-raised-button [href]="emprendedor" target="_blank">Mira mi whatsapp</a>
+          </div>
+        </section>
+      </mat-toolbar>
+    }
 }
 @else {
   <mat-toolbar>

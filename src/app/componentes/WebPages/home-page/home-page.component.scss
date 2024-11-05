@@ -5,7 +5,7 @@
   overflow: hidden; // Evita que el contenido se salga de los bordes
 
   &:hover {
-    transform: scale(1.05); // Escala leve al pasar el mouse
+    transform: scale(1.03); // Escala leve al pasar el mouse
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); // Sombra para dar efecto de elevación
   }
 }
@@ -18,9 +18,10 @@ img {
 
 .load-more-button {
   position: center; // Fija el botón en la pantalla
-  bottom: 4px;
+  bottom: 2px;
   left: 50%; // Centro horizontalmente
   transform: translateX(-50%); // Corrige el desplazamiento del botón
+  padding: 15px;
 }
 /* Contenedor de las tarjetas */
 .tarjetas-contenedor {
