@@ -36,6 +36,7 @@ export class PaginaEmprendedorComponent implements OnInit  {
   ) {}
 
   ngOnInit(): void {
+    window.scrollTo(0, 0);
     this.route.fragment.subscribe(fragment => {
       if (fragment) {
         const element = document.getElementById(fragment);
